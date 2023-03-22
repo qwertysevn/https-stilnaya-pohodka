@@ -82,7 +82,17 @@
 
     text-align: center;
     text-decoration-line: underline;
-    text-decoration:none;
-    color: #b97e7e;
+    color: #000000;
     margin-bottom: 80px;
+}
+.popular_brands_footerlink a {
+    color: #313030;
+    text-decoration-line: underline;
+}
+.popular_brands_footerlink a:hover{
+    color: #599D7B;
+}
+.popular_brands_footerlink a:active{
+    color: #3D5C4C;
+
 }
