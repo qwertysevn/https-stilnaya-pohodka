@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.baner_1{
+    margin: 0 auto;
+}
+.baner_list_1{
+    margin: 0 auto;
+    background: url(./img/Baner1.jpg);
+    background-size: cover;
+    background-color:#D9D8DC;
+    
+    background-repeat: no-repeat;
+    list-style: none;
+    background-position: right;
+    
+    position: center center;
+    width: 1440px;
+    min-height: 699.73px;
+
+}
+.baner_text_1{
+    position: relative;
+    width: 555px;
+    height: 208px;
+    left: 147px;
+    top: 40px;
+
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 95%;
+
+    color: #313030;
+}
+.baner_text_2{
+    position: relative;
+    width: 385px;
+    height: 87px;
+    left: 153px;
+    top: 60px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #313030;
+}
+.baner_text_3{
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #313030;
+}
+.baner_button_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+
+    position: relative;
+    width: 222px;
+    height: 56px;
+    left: 155px;
+    top: 145px;
+
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    border: 0;
+
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.4s;
+ }
+ .baner_button_1:hover{
+    background:  #D1D9D1;
+    ;
+
+    color: #313030;
+    transition:0.3s;
+}
+.baner_button_1:active{
+    background: #BAC1BA;
+
+}
+@font-face {
+    font-family: "Tenor Sans"; 
+    src: url("source/font/TenorSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("source/font/Montserrat-VariableFont_wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}

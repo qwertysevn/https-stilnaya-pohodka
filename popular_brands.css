@@ -1,0 +1,88 @@
+.popular_brands{
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1440px;
+    /* height: 464px; */
+}
+.popular_brands_header{
+    margin: 0 auto;
+    width: 511px;
+    height: 60px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    white-space: nowrap;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #313030;
+}
+.popular_brands_list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.popular_brands_brand{
+    box-sizing: border-box;
+
+    width: 210px;
+    height: 140px;
+
+    border: 1px solid #989898;
+    border-radius: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#brand_1{
+    background-image: url(./img/CAPRIZE.svg);
+}
+#brand_2{
+    /*переделать когда появятся нормальные значки*/
+    background-image: url(./img/BOKADGE\(2\).svg);
+    background-size: 80%;
+}
+#brand_3{
+    background-image: url(./img/EKKO.svg);
+}
+#brand_4{
+    background-image: url(./img/OLANC.svg);
+}
+#brand_5{
+    /*переделать когда появятся нормальные значки*/
+    background-image: url(./img/View\ 1\ \(1\).svg);
+    background-size: 80%;
+}
+#brand_6{
+    background-image: url(./img/OFF-BLACK.svg);
+}
+.popular_brands_brand:hover{
+
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+    transition:0.3s;
+}
+.popular_brands_img{
+    position: center center;
+}
+.popular_brands_footerlink{
+    margin: 0 auto;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration:none;
+    color: #b97e7e;
+    margin-bottom: 80px;
+}

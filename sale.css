@@ -1,0 +1,299 @@
+
+
+.adva1{
+         padding: 0;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         background-color: #476B59;
+         height: 138px;
+         z-index: -5;
+         
+         
+
+}
+
+.adva{
+   margin: 0 auto;
+   width: 1440px;
+        display: flex;
+        justify-content: flex-end;
+        color: #FFFFFF;
+        
+        justify-content: space-around;
+ }
+
+ .adv-text{
+    display: flex;
+   
+    align-items: center;
+   
+    font-family: Montserrat;
+    font-size: 24px;
+
+ }
+
+ .adv-logo{
+    margin-right: 10px;
+ }
+
+ .sale-text{
+    font-family: Tenor Sans;
+    font-size: 50px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+ }
+
+ .sale-photo1{
+    border-radius: 20px;
+    height: 400px;
+    width: 670px;
+    margin-left: 40px;
+  
+  
+ }
+
+
+ .sale-photo2{
+   border-radius: 20px;
+   height: 400px;
+   width: 670px;
+   margin-left: 20px;
+   transition-duration: 0.4s;
+ 
+ 
+}
+ .sale-card{
+    
+    display: flex;
+     margin: auto;
+    
+
+ }
+
+ .sale{
+    width: 1440px;
+    margin: 0 auto;
+ }
+
+ .person1{
+    color: #FFFCFC;
+    font-size: 110px;
+    font-family: Montserrat;
+   
+
+    
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 134px;
+
+
+ }
+
+
+ .model1{
+    
+    text-align:end;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+
+    letter-spacing: 0em;
+    line-height: 37px;
+
+    color: #FFFCFC;
+
+
+ }
+
+ .sale-link1{
+  
+   
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color:#FFFCFC;
+   
+    text-decoration: none;
+ }
+
+.sale-link3{
+   position: absolute;
+  margin-left: 494px;
+  margin-top: 285px;
+/* border: 3px solid red; */
+display: flex;
+
+    align-items: flex-start;
+
+
+    }
+
+    .sale-link2{
+   
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      /* position: absolute; */
+  
+      color: #FFFCFC;
+      text-decoration: none;
+  
+   }
+
+
+ 
+
+ .strelka1{
+    margin-left: 15px;
+    
+    cursor: pointer;
+
+   
+ }
+
+ .person2{
+  
+    font-family: Montserrat;
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 134px;
+    letter-spacing: 0em;
+
+    color: #FFFCFC;
+
+
+
+
+ }
+
+ .strelka2{
+    cursor: pointer;
+    margin-left: 15px;
+  
+    
+
+ }
+
+ .model2{
+    
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+
+    color: #FFFEFE;
+
+
+
+
+ }
+
+
+
+
+ .sale-div1{
+    display: flex;
+    position: absolute;
+    
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 320px;
+    margin-top: 20px;
+
+ }
+
+ .sale-div2{
+    margin-left: 28px;
+    position: absolute;
+    margin-top: 20px;
+
+ }
+
+ .sale-link4{
+    display: flex;
+    position: absolute;
+    /* border: 3px solid green; */
+    margin-left: 30px;
+    margin-top: 285px;
+    margin-right: 108px;
+
+
+ }
+
+
+ .sale-photo2{
+    transform: 0s;
+    transition-duration: 0.4s;
+    transition-delay: 0s;
+ }
+
+
+ .sale-photo2:hover{
+    -webkit-box-shadow: 0px 5px 7px 5px rgba(100, 99, 99, 0.2);
+    
+    transform: 0s;
+  
+ }
+
+
+ .sale-photo1{
+   transform: 0s;
+   transition-duration: 0.4s;
+   transition-delay: 0s;
+   animation-duration: 0s;
+   transition: 0.4s;
+}
+
+
+.sale-photo1:hover{
+   -webkit-box-shadow: 0px 5px 7px 5px rgba(100, 99, 99, 0.2);
+   
+   transform: 0s;
+ 
+}
+
+.sale-link4:hover{
+   text-decoration: underline white;
+}
+
+.sale-link1:hover{
+   text-decoration: underline white;
+}
+
+.sale-link2:hover{
+   text-decoration: underline white;
+}
+
+/* .sale-link2:hover .sale-photo1{
+   -webkit-box-shadow: 0px 5px 7px 5px rgba(100, 99, 99, 0.2);
+   
+   transform: 0s;
+
+} */
+
+.strelka2:hover + .sale-link2{
+   text-decoration: underline white;
+}
+
+.strelka1:hover + .sale-link2 a {
+   text-decoration: underline white;
+}
+
+.sale-link3:hover{
+   text-decoration: underline white;
+}
+
+.sale-link4:hover{
+   text-decoration: underline white;
+}
+
+

@@ -1,0 +1,85 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Montserrat;
+    }
+    
+    
+    .footer{
+        background-color: #1A1A1A;
+    }
+    
+    .footer-text{
+        margin: 0px auto;
+        width: 1480px;
+    }
+    
+    .position{
+        padding: 3%;
+        display: flex;
+        justify-content: space-between;
+        color: #FFFFFF;
+        list-style: none;
+        }
+    
+        li{
+            list-style: none;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    
+    .list{
+        list-style: none;
+        text-decoration: none;
+        color: #FFFFFF;
+        
+    }
+    
+    .politics{
+        color:#DADADA;
+        padding: 3%;
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .naming{
+        padding-bottom: 10%;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+
+
+        color: #FFFFFF;
+
+        
+    }
+    
+    .logo-img{
+        padding-bottom: 30%;
+    }
+    
+    .number{
+        margin-bottom: 15%;
+    }
+    
+    .list1{
+        line-height: 1.5;
+    }
+    @font-face {
+        font-family: "Tenor Sans"; 
+        src: url("source/font/TenorSans-Regular.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        }
+    @font-face {
+        font-family: "Montserrat"; 
+        src: url("source/font/Montserrat-VariableFont_wght.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+    }

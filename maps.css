@@ -1,0 +1,78 @@
+.maps1{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 135px;
+    margin-bottom: 40px;
+    color: #313030;
+    font-size: 50px;
+    font-family: Tenor Sans;
+}
+
+/* .map{
+    border-radius: 100px ;
+    border-radius: 55px;
+    overflow: hidden;
+} */
+
+
+.map iframe {
+    border-radius: 20px;
+    margin-left: 40px;
+    }
+
+.map-address{
+    
+    font-family: Montserrat;
+    font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+margin-bottom: 30px;
+
+    }
+
+.map-list{
+    color: #313030;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 20px;
+background: url(./img/map.svg) no-repeat 0px 0%;
+padding-left: 60px;
+line-height: 27px;
+font-family: Montserrat;
+
+    
+}
+
+span{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+font-family: Montserrat;
+    
+}
+
+.map1{
+    display: flex;
+   
+}
+
+.map-text{
+    margin-left: 135px;
+}
+
+.maps-number{
+    color: #313030;
+    font-family: Montserrat;
+}
+
+.maps-number:hover{
+    color:#599D7B;
+}
