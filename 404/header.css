@@ -55,8 +55,29 @@ a {
 
 }
 
+.header-input{
+    display: block;
+}
+
+.header-button{
+    border: none;
+    position: absolute;
+    top: 27px;
+    margin-left: 250px;
+    cursor: pointer;
+    background: none;
+    
+}
+
+.header-form{
+    position: a;
+}
+
+
+
+
 .header_list2{
-    margin-right: 90px;
+    margin-right: 200px;
     
 }
 
@@ -113,10 +134,18 @@ a {
 
     border: 1px solid #989898;
     border-radius: 30px;
-    background-image: url(./img/Vector.svg);
-    background-position: 250px 7px;
-    background-repeat: no-repeat;
+    padding-left: 20px;
+    outline-color:  #476B59;
+
 }
+
+.lupa{
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 1208px;
+    
+}
+
 .header_element{
     cursor: pointer;
 }
@@ -132,6 +161,8 @@ a {
 }
 .header_number{
     color: #313030;
+    letter-spacing: 1px;
+    margin-right: 17px;
 }
 @font-face {
     font-family: "Tenor Sans"; 
