@@ -150,5 +150,6 @@
     }
 
     .logotype:hover{
+        filter: invert(1);
 
     }
