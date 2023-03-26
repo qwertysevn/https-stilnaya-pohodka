@@ -54,8 +54,7 @@
 .basket_item_1{
     padding: 20px 0px 0px 20px;
 }
-.basket_item_2{
-}
+
 .basket_price{
     margin-left: 135px;
 
@@ -158,8 +157,11 @@
     max-width: 263px;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .basket_text_1{
+    margin-top: 40px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -169,6 +171,17 @@
     color: #313030;
 }
 .basket_text_2{
+    margin-top: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #313030;   
+}
+.basket_text_3{
+    margin-top: 24px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -227,4 +240,47 @@
     text-decoration-line: underline;
 
     color: #989898;
+}
+.basket_button_1{
+        margin-left: 31px;
+        margin-top: 70px;
+        width: 263px;
+        height: 56px;
+        border-radius: 35px;
+        background: #476B59;
+        margin-top: 28px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .basket_button_1:hover{
+        background-color:#599D7B;
+    }
+    .basket_button_1:active{
+        background-color:#3D5C4C;
+    }
+.basket_button_text_1{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.basket_reminder_text{
+    margin-left: 31px;
+    margin-top: 36px;
+    width: 263px;
+    height: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+
+    color: #476B59;
 }
