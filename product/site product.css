@@ -1,0 +1,155 @@
+.shoes {
+
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.shoestop{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 40px;
+margin-left: 40px;
+color: #313030;
+}
+
+.shoesname{
+    color: #313030;
+    
+font-family: Montserrat;
+font-size: 35px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 31px;
+margin-left: 40px;
+
+
+}
+
+.article{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #313030;
+margin-top: 29px;
+margin-left: 40px;
+}
+
+.shoeposition{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.leftpfoto{
+    margin-top: 20px;
+}
+
+.mainphoto{
+    margin-left: 20px;
+}
+
+.characteristics{
+    margin-left: 20px;
+}
+
+.size{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+color: #313030;
+
+}
+
+
+.instucrion{
+    text-decoration: none;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 800;
+line-height: 24px;
+color: #313030;
+text-decoration: underline;
+margin-top: 16px;
+}
+
+.compound{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 20px;
+}
+
+.color{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #6F6666;
+margin-top: 16px;
+}
+
+.brend{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #6F6666;
+margin-top: 16px;
+}
+
+.allproduct{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #6F6666;
+margin-top: 8px;
+}
+
+.price{
+    color: #313030;
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+margin-top: 20px;
+
+}
+
+.checkbox1{
+    height: 50px;
+    width: 50px;
+
+}
+
+.checkboxcolor1{
+    background-color: #BA9D88;
+    width: 20px;
+    height: 20px;
+}
+
+.checkboxcolor2{
+    background: #BA9D88;
+    width: 20px;
+    height: 20px;
+}
