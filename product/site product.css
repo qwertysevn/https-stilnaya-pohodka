@@ -149,7 +149,175 @@ margin-top: 20px;
 }
 
 .checkboxcolor2{
+    display: none;
+}
+
+.checkboxcolor2:before{
+    display: inline-block;
     background: #BA9D88;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    content: "25 ";
+}
+
+
+/* Информация о доставке */
+
+.info{
+    height: 764px;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #E6E6E5;
+    color:  #313030;
+
+}
+
+.delivery{
+   padding-top: 80px;
+   
+  
+font-family: Tenor Sans;
+font-size: 50px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.delivery-list{
+    display: flex;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.payment{
+    padding-top: 40px;
+   
+  
+    font-family: Tenor Sans;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.payment-list{
+    display: flex;
+    margin-top: 40px;
+       font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.delivery-list1{
+    margin-left: 40px;
+}
+
+.list-deliv{
+    
+}
+
+.delivery-list2{
+    margin-left: 130px;
+    margin-right: 77px;
+}
+
+.list-deliv2{
+    margin-top: 20px;
+}
+
+.list-deliv3{
+    margin-top: 20px;
+}
+
+.delivery-list3{
+    margin-left: 170px;
+    margin-right: 77px;
+}
+
+.deliv-link{
+    color:  #313030;
+    text-decoration: underline;
+}
+
+.deliv-link2{
+    color:  #313030;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+/* характеристики */
+
+.ch-list{
+    padding-top: 80px;
+        width: 1440px;
+    margin: 0 auto;
+    color:  #313030;
+}
+
+.ch-spisok{
+    color: #6F6666;
+    font-style: normal;
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+
+}
+
+.ch-spisok1{
+    color:  #313030;
+    font-family: 'Montserrat';
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+}
+
+.ch-position{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.ch-characteristics{
+    
+font-family: Tenor Sans;
+font-size: 50px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+.ch-post{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+margin-top: 40px;
+margin-bottom:  80px;
+
+color: #6F6666;
+}
+
+.ch-position-list{
+    display: flex;
+}
+
+.ch-list4{
+    margin-left: 60px;
 }
