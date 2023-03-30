@@ -79,7 +79,7 @@ a {
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
-    color: #313030;
+    color: #FFFFFF;
 }
 .baner_button_1{
     display: flex;
@@ -95,7 +95,7 @@ a {
     left: 155px;
     top: 145px;
 
-    background-color: #FFFFFF;
+    background-color: #FC784E;
     border-radius: 35px;
     border: 0;
 
@@ -105,14 +105,16 @@ a {
  }
  
  .baner_button_1:hover{
-    background:  #D1D9D1;
+    background:  #E16D48;
+    ;
     ;
 
-    color: #313030;
+    color: #FFFFFF;
     transition:0.3s;
 }
 .baner_button_1:active{
-    background: #BAC1BA;
+    background:  #D3633F;
+    
 
 }
 @font-face {
