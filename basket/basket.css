@@ -16,8 +16,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    text-decoration: underline;
 
+    color: #313030;
+}
+.basket_lable_1 a{
     color: #313030;
 }
 .basket_lable_2{
@@ -417,10 +419,47 @@
     font-weight: 400;
     font-size: 16px;
 }
+.basket_shipping_radiobutton_1 input[type=radio] {
+	display: none;
+}
+.basket_shipping_radiobutton_1 label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+.basket_shipping_radiobutton_1 label:before {
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background: url(./img/Untitled.svg) 0 0 no-repeat;
+}
+ 
+/* Checked */
+.basket_shipping_radiobutton_1 input[type=radio]:checked + label:before {
+	background: url(./img/Union.svg) 0 0 no-repeat;
+}
+ 
+/* Hover */
+.basket_shipping_radiobutton_1 label:hover:before {
+	filter: brightness(120%);
+}
+ 
+/* Disabled */
+.basket_shipping_radiobutton_1 input[type=radio]:disabled + label:before {
+	filter: grayscale(100%);
+}
 .basket_shipping_1{
     display: flex;
     align-items: flex-end;
-    gap: 227px;
+    gap: 286px;
 }
 .basket_shipping_2{
     margin-left: 20px;
@@ -431,8 +470,10 @@
 }
 .basket_shipping_2_text_1{
     color: #313030;
+    margin-left: 3px;
 }
-.basket_shipping_2 a{
+.basket_shipping_2 p{
+    padding-bottom: 10px;
     width: 321px;
     height: 20px;
 
@@ -442,6 +483,8 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
+    display: flex;
+    align-items: flex-end;
 
     color: #989898;
 }
@@ -501,12 +544,12 @@
     border-radius: 4px;
     width: 305px;
     height: 40px;
-    letter-spacing: inherit;
-    word-spacing: inherit;
+
+    outline-color:  #476B59;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    padding: 8px 0px 8px 0px;
+    padding: 7px 8px 8px 8px;
   }
   
   .basket_shipping_2_text_1 select:not([multiple]) {
@@ -518,4 +561,27 @@
   }
   .basket_shipping_2_text_1 select:-ms-expand {
     display: none;
+
   }
+.basket_text_radio_1{
+    margin-left: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #989898;
+}
+.basket_shipping_radiobutton_2{
+    display: flex;
+}
+.radio_label_1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #313030;
+}
