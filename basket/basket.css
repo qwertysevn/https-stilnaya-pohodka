@@ -40,7 +40,6 @@
 .basket_main{
     margin-top: 37px;
     display: flex;
-    align-items: flex-end;
 }
 .basket_items{
     margin-left: 40px;
@@ -52,9 +51,214 @@
     border-radius: 20px;
 }
 .basket_item_1{
-    padding: 20px 0px 0px 20px;
+    padding: 24px 0px 0px 20px;
 }
+.basket_item_2{
+    padding: 40px 0px 0px 20px;
+}
+.basket_item_text{
+    display: flex;
+    align-items: flex-start;
+}
+.basket_item_text_1{
+    padding: 24px 0px 0px 24px;
+    width: 242px;
+    height: 32px;
 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #313030;
+}
+.basket_item_text_1_1{
+    padding: 40px 0px 0px 24px;
+    width: 242px;
+    height: 32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #313030;
+}
+.basket_item_text_2{
+    padding-top: 24px;
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #191919;
+}.basket_item_text_2_1{
+    padding-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #191919;
+}
+.basket_item_text_3{
+    padding-top: 28px;
+    margin-left: 29px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #313030;
+
+}
+.basket_item_text_3_1{
+    padding-top: 44px;
+    margin-left: 29px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #313030;
+
+}
+.basket_item_text_4{
+    padding-top: 24px;
+    margin-left: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #191919;
+}
+.basket_item_text_4_1{
+    padding-top: 40px;
+    margin-left: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #191919;
+}
+.basket_item_text_5{
+    padding-top: 24px;
+    margin-left: 150px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    
+    color: #313030;
+}
+.basket_item_text_5_1{
+    padding-top: 40px;
+    margin-left: 150px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    
+    color: #313030;
+}
+.basket_item_text_6{
+    margin-top: 10px;
+    margin-left: 24px;
+
+    width: 242px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #313030;
+    
+}
+.basket_item_text_7{
+    margin-top: 20px;
+    margin-left: 337px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-decoration-line: underline;
+    
+    color: #313030;
+    
+}
+.basket_item_text_8{
+    margin-left: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #313030;
+}
+.basket_item_text_9{
+    margin-top: 1px;
+    margin-left: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #313030;  
+}
+.basket_item_text_10{
+    margin-top: 10px;
+    margin-left: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #6F6666; 
+}
+.basket_item_text_12{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.basket_item_text_11{
+    margin-top: 10px;
+    margin-left: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #6F6666; 
+}
 .basket_price{
     margin-left: 135px;
 
@@ -284,3 +488,34 @@
 
     color: #476B59;
 }
+
+.basket_shipping_2_text_1 select{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #313030;
+    border: 1px solid #313030;
+    border-radius: 4px;
+    width: 305px;
+    height: 40px;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 8px 0px 8px 0px;
+  }
+  
+  .basket_shipping_2_text_1 select:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.9em) 1.1em;
+    background-size: 0.65em auto;
+    background-image: url(./img/Intersect.svg);
+  }
+  .basket_shipping_2_text_1 select:-ms-expand {
+    display: none;
+  }
