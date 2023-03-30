@@ -95,6 +95,10 @@
 
     .logotype{
         margin-right: 5px;
+        /* background: url(./img/vk.svg);
+        height: 24px;
+        width: 24px;
+        display:block */
     }
     
     .logo-img{
@@ -139,3 +143,63 @@
        
 
     }
+
+
+    .list9:hover{
+        font-weight: 1000;
+    }
+
+  .logotype1{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/vk.svg);
+    margin-right: 5px;
+  }
+
+  .logotype2{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/odn.svg);
+    margin-right: 5px;
+  }
+
+  .logotype3{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/telegram.svg);
+    margin-right: 5px;
+  }
+
+  .logotype4{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/youtube.svg);
+    margin-right: 5px;
+  }
+
+  .logotype1:hover{
+    
+    background-image: url(./img/icon-footer/Icons.svg);
+    
+  }
+
+  .logotype2:hover{
+    background-image: url(./img/icon-footer/Icons-1.svg);
+  }
+
+  .logotype3:hover{
+     background-image: url(./img/icon-footer/Icons-2.svg);
+  }
+
+  .logotype4:hover{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+        background-image: url(./img/icon-footer/Icons-3.svg);
+        margin-right: 5px;
+  
+      }
