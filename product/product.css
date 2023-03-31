@@ -1,3 +1,9 @@
+.product1{
+    height: 820px;
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
 .product{
     height: 820px;
     width: 1440px;

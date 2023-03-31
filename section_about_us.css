@@ -2,8 +2,8 @@
 
 /* контейнер серый */
 .section_about_us {
-    margin: 40px auto;
-    max-width: 1440px;
+    margin: 0px auto;
+    min-width: 1440px;
     height: 562px;
     display: flex;
     align-items: center;
@@ -11,6 +11,15 @@
 
     /* grey_fon_E6E6E5*/
     background: #E6E6E5;
+}
+
+.section_about_us1{
+    margin: 0px auto;
+    width: 1440px;
+}
+
+.about_position{
+    display: flex;
 }
 
 .section_about_us_long {
@@ -182,10 +191,8 @@
 
 /* О нас */
 .text_about_us {
-    position: absolute;
-    margin-top: 80px;
-    margin-bottom: 422px;
-    margin-left: 647px;
+    margin: 0 auto;
+    padding: 40px 647px 0px 648px;
     font-family: 'Tenor Sans';
     font-style: normal;
 

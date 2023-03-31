@@ -1,8 +1,13 @@
+.shoes1{
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
 .shoes {
 
     width: 1440px;
     margin: 0 auto;
-    background: #CDC8C7;
+    
     
 }
 
@@ -41,7 +46,7 @@ line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
 color: #313030;
-margin-top: 29px;
+margin-top: 5px;
 margin-left: 40px;
 }
 
@@ -84,6 +89,11 @@ text-decoration: underline;
 margin-top: 16px;
 }
 
+.instucrion:hover{
+   text-decoration: underline;
+    color: #599D7B;
+}
+
 .compound{
     font-family: Montserrat;
 font-size: 18px;
@@ -92,6 +102,7 @@ line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
 margin-top: 20px;
+color: #313030;
 }
 
 .color{
@@ -117,6 +128,14 @@ color: #6F6666;
 margin-top: 16px;
 }
 
+.brend1{
+    color: #6F6666;
+}
+.brend1:hover{
+    text-decoration: underline;
+    color: #599D7B;
+}
+
 .allproduct{
     font-family: Montserrat;
 font-size: 18px;
@@ -128,6 +147,11 @@ color: #6F6666;
 margin-top: 8px;
 }
 
+.allproduct:hover{
+    text-decoration: underline;
+    color: #599D7B;
+}
+
 .price{
     color: #313030;
     font-family: Montserrat;
@@ -137,6 +161,11 @@ line-height: 40px;
 margin-top: 20px;
 
 }
+
+.size-pozition{
+    margin-top: 16px;
+}
+
 
 .checkbox1{
     height: 50px;
@@ -390,6 +419,15 @@ margin-top: 20px;
 
 /* Информация о доставке */
 
+.info1{
+    height: 764px;
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #E6E6E5;
+    
+
+}
+
 .info{
     height: 764px;
     width: 1440px;
@@ -484,12 +522,18 @@ line-height: 22px;
 
 /* характеристики */
 
+
+.ch-list1{
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
 .ch-list{
     padding-top: 80px;
         width: 1440px;
     margin: 0 auto;
     color:  #313030;
-    background: #CDC8C7;
+     
 }
 
 .ch-spisok{
@@ -588,7 +632,7 @@ font-size: 18px;
 line-height: 24px;
 white-space: nowrap;
 text-align: center;
-margin-left: 46px;
+margin-left: 52px;
 }
 
 .pr-button-position1{

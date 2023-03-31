@@ -1,13 +1,14 @@
 
 
 .adva1{
-         padding: 0;
+       
          margin: 0 auto;
          display: flex;
          justify-content: space-between;
          background-color: #476B59;
          height: 138px;
          z-index: -5;
+         min-width: 1440px;
          
          
 
