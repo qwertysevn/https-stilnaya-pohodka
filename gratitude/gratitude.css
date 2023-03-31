@@ -1,3 +1,8 @@
+.gratitude_main{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
 .gratitude_lable_1{
     margin: 0 auto;
     margin-top: 198px;
@@ -101,4 +106,10 @@ color: #FFFFFF;
     margin-bottom: 40px;
     display: block;
     text-align: center;
+}
+.gratitude_products{
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center
 }
