@@ -1,7 +1,7 @@
 /* контейнер серый */
 .section_about_us {
     margin: 40px auto;
-    max-width: 1440px;
+    width: 1440px;
     height: 562px;
     /* border-radius: 19px; */
     display: flex;
