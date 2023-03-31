@@ -1,8 +1,13 @@
+.shoes1{
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
 .shoes {
 
     width: 1440px;
     margin: 0 auto;
-    background: #fdfdfd;
+    
     
 }
 
@@ -414,6 +419,15 @@ margin-top: 20px;
 
 /* Информация о доставке */
 
+.info1{
+    height: 764px;
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #E6E6E5;
+    
+
+}
+
 .info{
     height: 764px;
     width: 1440px;
@@ -508,12 +522,18 @@ line-height: 22px;
 
 /* характеристики */
 
+
+.ch-list1{
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
 .ch-list{
     padding-top: 80px;
         width: 1440px;
     margin: 0 auto;
     color:  #313030;
-     background: #fdfdfd;
+     
 }
 
 .ch-spisok{

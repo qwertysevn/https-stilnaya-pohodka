@@ -8,7 +8,7 @@
          background-color: #476B59;
          height: 138px;
          z-index: -5;
-         width: 1440px;
+         min-width: 1440px;
          
          
 
