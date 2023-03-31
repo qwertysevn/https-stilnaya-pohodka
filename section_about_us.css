@@ -1,9 +1,10 @@
+/* About us */
+
 /* контейнер серый */
 .section_about_us {
     margin: 40px auto;
     max-width: 1440px;
     height: 562px;
-    /* border-radius: 19px; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -12,12 +13,51 @@
     background: #E6E6E5;
 }
 
-/* белая карточка */
-.section_about_white {
-    margin: 40px auto;
+.section_about_us_long {
+    height: 562px;
+
+    /* grey_fon_E6E6E5*/
+    background-color: #E6E6E5;
+}
+
+/* белая карточка 1 */
+.section_about_white1 {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 40px;
     max-width: 418px;
     /*height: 302px;*/
-    border-radius: 19px;
+    border-radius: 20px;
+    background: #FBFBFB;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    /* Auto layout */
+    flex-direction: column;
+    padding: 35px 40px;
+    gap: 10px;
+
+    /* accentued-drop-shadow */
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+}
+
+/* белая карточка 2 */
+.section_about_white2 {
+    position: absolute;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    margin-left: 511px;
+
+    max-width: 418px;
+    /* height: 302px;*/
+    border-radius: 20px;
     background: #FBFBFB;
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +79,12 @@
 
 /* зелёная карточка */
 .section_about_green {
-    margin: 40px auto;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 982px;
     max-width: 416px;
-    border-radius: 19px;
+
+    border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
 
@@ -64,12 +107,12 @@
     align-self: stretch;
 }
 
-/*заголовок белой карточки*/
+/* заголовок белой карточки*/
 .text_about_white {
 
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 24px;
     line-height: 32px;
 
@@ -85,18 +128,18 @@
     flex-grow: 0;
 }
 
-/*заголовок зелёной карточки*/
+/* заголовок зелёной карточки*/
 .text_about_green {
 
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
 }
 
-/*текст белой карточки*/
+/* текст белой карточки*/
 .text_about_white1 {
     /* paragraph */
     width: 338px;
@@ -117,7 +160,7 @@
     flex-grow: 0;
 }
 
-/*текст зелёной карточки*/
+/* текст зелёной карточки*/
 .text_about_green1 {
     width: 338px;
     height: 120px;
@@ -139,12 +182,13 @@
 
 /* О нас */
 .text_about_us {
-    margin: 0 auto;
-    padding: 40px 647px 0px 648px;
+    position: absolute;
+    margin-top: 80px;
+    margin-bottom: 422px;
+    margin-left: 647px;
     font-family: 'Tenor Sans';
     font-style: normal;
-margin-top: 45px;
-white-space: nowrap;
+
     font-size: 50px;
     line-height: 60px;
     font-weight: 400;
@@ -156,8 +200,8 @@ white-space: nowrap;
 /* Лого карточек */
 .logo_about_us {
     /* Vector */
-    Width: 49.33px;
-    Height: 37.33px;
+    Width: 50px;
+    Height: 37px;
     Top: 1.33px;
     Left: -0.33px;
 }
