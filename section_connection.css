@@ -6,9 +6,9 @@
     max-width: 1440px;
     height: 552px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
-
+padding-top: 80px;
     /* grey_fon_E6E6E5*/
     background: #E6E6E5;
 }
@@ -39,7 +39,7 @@
 
 /* текст "Подпишитесь на новости" */
 .text_connection {
-    margin-top: -200px;
+    /* margin-top: -200px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 30px;
@@ -85,7 +85,7 @@
     display: flex;
     flex: flex;
     align-items: center;
-    position: absolute;
+   
     margin-top: 8px;
     margin-left: 0px;
 
@@ -100,24 +100,27 @@
     background-position: 238px 7px;
     background-repeat: no-repeat;
 }
-
+.position_conection{
+    display: flex;
+}
 /* placeholder color pozition */
 ::-webkit-input-placeholder {
     font-size: 16px;
-    position: absolute;
+    
     margin-top: 8px;
     margin-left: 8px;
     color: rgba(204, 204, 204, 1);
 }
-
+.position_conection1{
+  margin-left: 27px;
+}
 /* Input E-mail */
 .connection_textbox_2 {
     display: flex;
     flex: flex;
     align-items: center;
-    position: absolute;
     margin-top: 8px;
-    margin-left: 291px;
+  
 
     box-sizing: border-box;
     height: 40px;
@@ -131,17 +134,36 @@
     background-position: 238px 7px;
     background-repeat: no-repeat;
 }
+.connection_textbox_2:active{
+    outline: 0;
+    outline-offset: 0;
+    
+}
 
+.connection_textbox_2:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+.connection_textbox_1:active{
+    outline: 0;
+    outline-offset: 0;
+    
+}
+
+.connection_textbox_1:focus{
+    outline: 0;
+    outline-offset: 0;
+}
 /*текст "Согласие"*/
 .text_connection3 {
 
     /* 18 montserrat */
-    position: absolute;
+    
     margin-top: 98px;
     margin-left: 20px;
 
     font-family: 'Montserrat';
-    display: flex;
+    
     font-weight: 500px;
     font-size: 14px;
     /*margin-left: 34px;*/
@@ -149,6 +171,8 @@
     /* black_text_313030 */
     color: #313030;
 }
+
+
 
 /*текст "Согласие"*/
 .text_connection4 {
@@ -168,23 +192,6 @@
     color: #313030;
 }
 
-/* чекбокс*/
-.checkmark {
-    height: 14px;
-    max-width: 14px;
-    background-color: #E6E6E5;
-}
-
-/* чекбокс стилизация*/
-.container_checkmark {
-    display: flex;
-    position: absolute;
-    margin-top: 98px;
-    width: 14px;
-    height: 14px;
-    border: 2px solid rgb(153, 154, 153);
-    background: #E6E6E5;
-}
 
 /* button "Подписаться" */
 .connection_button {
@@ -202,6 +209,165 @@
     cursor: pointer;
     color: #FFFFFF;
     font-size: 16px;
+    
+    margin-top: 40px;
+}
+
+.connection_button:hover{
+background-color: #599D7B;
+}
+.connection_button:active{
+background-color: #3D5C4C;
+}
+
+.text_connection5 {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+   text-decoration: underline;
+    color: #313030;
+}
+.text_connection6 {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 18px;
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+ 
+    color: #313030;
+}
+.text_connection5:hover{
+    color: #599D7B;
+}
+.position_checkbox1{
+    display: flex;
+    margin-top: 34px;
+}
+
+
+/* чекбокс*/
+
+
+/* чекбокс стилизация*/
+.container_checkmark {
+    
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+
     position: absolute;
-    margin-top: 186px;
+    z-index: 1;
+}
+
+.custom_container{
+    /* display: inline-block; */
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(153, 154, 153);
+    background: #E6E6E5;
+    border-radius: 2px;
+  
+}
+
+.custom_container:before{
+/* content: ""; */
+background-image: url(./img/Vector\ 7.svg);
+display: inline-block;
+width: 14px;
+    height: 14px;
+background-size:contain ;
+background-repeat: no-repeat;
+margin-bottom: 3px;
+
+transform: scale(0);
+transition: 0.2s;
+}
+
+.container_checkmark:checked + .custom_container:before{
+    transform: scale(1);
+}
+
+
+.real-checkbox{
+    display: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.size1{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(153, 154, 153);
+    background: #E6E6E5;
+    border-radius: 2px;
+}
+
+
+.size1:before{
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-image: url(./img/Vector\ 7.svg);
+    
+    transform: scale(0);
+   background-repeat: no-repeat;
+    -webkit-appearance: none;
+    appearance: none;
+    text-align: center;
+    transition: 0.2s;
+    background-size:contain ;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+.real-checkbox:checked + .size1:before{
+    transform: scale(1);
+}
+
+
+  
+
+  ::placeholder {
+    
+    transform: translateX(10px) ;
+  
+  }
+
+  input[type=text]{
+    padding-left: 5px;
+ 
+  
+}
+:active, :hover, :focus {
+    border-color: #3D5C4C;
 }
