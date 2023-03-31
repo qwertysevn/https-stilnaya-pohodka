@@ -1,0 +1,205 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Montserrat;
+        
+    }
+    
+    
+    .footer{
+        background-color: #595C57;
+        min-width: 1440px;
+        
+     
+        margin: 0px auto;
+    }
+    
+    .footer-text{
+        margin: 0px auto;
+        max-width: 1440px;
+        padding-top: 25px;
+        
+    }
+    
+    .position{
+        /* padding-top: 69px; */
+        
+        display: flex;
+        justify-content: space-between;
+        color: #FFFFFF;
+        list-style: none;
+        flex-wrap: wrap;
+        padding: 44px 100px 0px 44px;
+        
+        }
+    
+        li{
+            list-style: none;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    
+    .list{
+        list-style: none;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 8px;
+        
+    }
+
+    .listy{
+        font-size: 22px;
+        list-style: none;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .politics{
+        color:#DADADA;
+        margin-top: 9px;
+        padding-bottom: 40px;
+        margin-left: 40px;
+        
+    }
+
+    .list9{
+        list-style: none;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 8px;
+        
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .naming{
+        padding-bottom: 29px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        
+
+
+        color: #FFFFFF;
+
+        
+    }
+
+    .logotype{
+        margin-right: 5px;
+        /* background: url(./img/vk.svg);
+        height: 24px;
+        width: 24px;
+        display:block */
+    }
+    
+    .logo-img{
+        padding-bottom: 45px;
+    }
+    
+    .number{
+        margin-bottom: 18px;
+       
+    }
+    
+    .list1{
+        line-height: 26px;
+
+    }
+
+    .list:hover{
+        font-weight: 1000;
+       
+        /* font-weight: 700; */
+    }
+
+
+
+
+
+    @font-face {
+        font-family: "Tenor Sans"; 
+        src: url("source/font/TenorSans-Regular.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        }
+    @font-face {
+        font-family: "Montserrat"; 
+        src: url("source/font/Montserrat-VariableFont_wght.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+    }
+
+    .number:hover{
+        font-weight: 1000;
+       
+
+    }
+
+
+    .list9:hover{
+        font-weight: 1000;
+    }
+
+  .logotype1{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/vk.svg);
+    margin-right: 5px;
+  }
+
+  .logotype2{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/odn.svg);
+    margin-right: 5px;
+  }
+
+  .logotype3{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/telegram.svg);
+    margin-right: 5px;
+  }
+
+  .logotype4{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(./img/youtube.svg);
+    margin-right: 5px;
+  }
+
+  .logotype1:hover{
+    
+    background-image: url(./img/icon-footer/Icons.svg);
+    
+  }
+
+  .logotype2:hover{
+    background-image: url(./img/icon-footer/Icons-1.svg);
+  }
+
+  .logotype3:hover{
+     background-image: url(./img/icon-footer/Icons-2.svg);
+  }
+
+  .logotype4:hover{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+        background-image: url(./img/icon-footer/Icons-3.svg);
+        margin-right: 5px;
+  
+      }
