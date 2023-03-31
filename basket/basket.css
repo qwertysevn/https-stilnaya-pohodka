@@ -585,3 +585,8 @@
 
     color: #313030;
 }
+#basket_link_1 a:hover {
+    color: #476B59;
+
+    font-weight: 600;
+}
