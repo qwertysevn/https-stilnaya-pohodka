@@ -1,0 +1,113 @@
+/* Connection */
+
+/* контейнер серый */
+.section_connection {
+    margin: 40px auto;
+    max-width: 1440px;
+    height: 552px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* grey_fon_E6E6E5*/
+    background: #E6E6E5;
+}
+
+.section_connection_long {
+
+    height: 562px;
+
+    /* grey_fon_E6E6E5*/
+    background-color: #E6E6E5;
+}
+
+/* Контейнер с картинкой */
+.section_connection_picture {
+    margin-left: 40px;
+    margin-right: 128px;
+    width: 679px;
+    height: 392px;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+    background-image: url(img/D7E11812-6C34-456D-A315-96C0334AA892\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* текст "Подпишитесь на новости" */
+.text_connection {
+    margin-top: -130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 30px;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/*текст "Узнайте первым о наших акциях и скидках"*/
+.text_connection1 {
+
+    /* 18 montserrat */
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/*текст "Имя,E-mail"*/
+.text_connection2 {
+
+    /* 18 montserrat */
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-weight: 500px;
+    font-size: 16px;
+
+    /* identical to box height, or 18px */
+    display: flex;
+    align-items: center;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/*текст "Согласие"*/
+.text_connection3 {
+
+    /* 18 montserrat */
+    margin-top: 98px;
+    font-family: 'Montserrat';
+
+    font-weight: 500px;
+    font-size: 14px;
+    /*margin-left: 34px;*/
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/* чекбокс*/
+.checkmark {
+    height: 14px;
+    max-width: 14px;
+    background-color: #eec321;
+}
+
+.container_checkmark {
+    position: absolute;
+    margin-top: 30px;
+    width: 14px;
+    height: 14px;
+    border-radius: 0.25em;
+
+
+}
