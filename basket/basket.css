@@ -91,7 +91,7 @@
 .basket_item_text_2{
     padding-top: 24px;
     margin-left: 40px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -101,7 +101,7 @@
 }.basket_item_text_2_1{
     padding-top: 40px;
     margin-left: 40px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -140,7 +140,7 @@
 .basket_item_text_4{
     padding-top: 24px;
     margin-left: 29px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -151,7 +151,7 @@
 .basket_item_text_4_1{
     padding-top: 40px;
     margin-left: 29px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -285,7 +285,7 @@
     width: 670px;
     height: 24px;
 
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -414,7 +414,7 @@
     margin-left: 23px;
     color: #313030;
 
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -459,7 +459,7 @@
 .basket_shipping_1{
     display: flex;
     align-items: flex-end;
-    gap: 286px;
+    gap: 274px;
 }
 .basket_shipping_2{
     margin-left: 20px;
@@ -533,7 +533,7 @@
 }
 
 .basket_shipping_2_text_1 select{
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -565,7 +565,7 @@
   }
 .basket_text_radio_1{
     margin-left: 11px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -577,7 +577,7 @@
     display: flex;
 }
 .radio_label_1{
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
