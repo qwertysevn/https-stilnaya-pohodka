@@ -15,7 +15,7 @@
 
     font-family: 'Tenor Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 32px;
     line-height: 40px;
 
@@ -29,9 +29,8 @@
     width: 825px;
     height: 29px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'MonserratBold';
+    font-weight: 900;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
@@ -113,3 +112,10 @@ color: #FFFFFF;
     display: flex;
     justify-content: center
 }
+
+@font-face {
+    font-family: "MonserratBold"; 
+    src: url("./source/font/static/Montserrat-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
