@@ -57,15 +57,33 @@ margin-left: 40px;
 }
 
 .leftpfoto{
-    margin-top: 20px;
+   
 }
 
 .mainphoto{
-    margin-left: 20px;
+    margin-left: 10px;
+}
+.leftpfoto1{
+    margin-top: 20px;
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.mainphoto{
+    width: 440px;
+height: 440px;
+border-radius: 20px;
+}
+
+.leftpfoto{
+    width: 210px;
+height: 210px;
+border-radius: 20px;
 }
 
 .characteristics{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .size{

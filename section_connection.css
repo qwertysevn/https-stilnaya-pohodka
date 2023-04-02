@@ -1,0 +1,373 @@
+/* Connection */
+
+/* контейнер серый */
+.section_connection {
+    margin: 40px auto;
+    max-width: 1440px;
+    height: 552px;
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+padding-top: 80px;
+    /* grey_fon_E6E6E5*/
+    background: #E6E6E5;
+}
+
+.section_connection_long {
+
+    height: 562px;
+
+    /* grey_fon_E6E6E5*/
+    background-color: #E6E6E5;
+}
+
+/* Контейнер с картинкой */
+.section_connection_picture {
+    margin-left: 40px;
+    margin-right: 128px;
+    width: 679px;
+    height: 392px;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+    background-image: url(img/D7E11812-6C34-456D-A315-96C0334AA892\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* текст "Подпишитесь на новости" */
+.text_connection {
+    /* margin-top: -200px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 30px;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/*текст "Узнайте первым о наших акциях и скидках"*/
+.text_connection1 {
+
+    /* 18 montserrat */
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    display: flex;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/*текст "Имя,E-mail"*/
+.text_connection2 {
+
+    /* 18 montserrat */
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+
+    /* identical to box height, or 18px */
+    display: flex;
+    align-items: center;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/* Input Имя */
+.connection_textbox_1 {
+    display: flex;
+    flex: flex;
+    align-items: center;
+   
+    margin-top: 8px;
+    margin-left: 0px;
+
+    box-sizing: border-box;
+    height: 40px;
+    max-width: 264px;
+    width: 264px;
+
+    border: 0px solid;
+    border-radius: 8px;
+    background-image: url(./img/Vector_x.svg);
+    background-position: 238px 7px;
+    background-repeat: no-repeat;
+}
+.position_conection{
+    display: flex;
+}
+/* placeholder color pozition */
+::-webkit-input-placeholder {
+    font-size: 16px;
+    
+    margin-top: 8px;
+    margin-left: 8px;
+    color: rgba(204, 204, 204, 1);
+}
+.position_conection1{
+  margin-left: 27px;
+}
+/* Input E-mail */
+.connection_textbox_2 {
+    display: flex;
+    flex: flex;
+    align-items: center;
+    margin-top: 8px;
+  
+
+    box-sizing: border-box;
+    height: 40px;
+    max-width: 264px;
+    width: 264px;
+
+    border: 0px solid;
+    border-radius: 8px;
+    background-image: url(./img/Vector_x.svg);
+
+    background-position: 238px 7px;
+    background-repeat: no-repeat;
+}
+.connection_textbox_2:active{
+    outline: 0;
+    outline-offset: 0;
+    
+}
+
+.connection_textbox_2:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+.connection_textbox_1:active{
+    outline: 0;
+    outline-offset: 0;
+    
+}
+
+.connection_textbox_1:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+/*текст "Согласие"*/
+.text_connection3 {
+
+    /* 18 montserrat */
+    
+    margin-top: 98px;
+    margin-left: 20px;
+
+    font-family: 'Montserrat';
+    
+    font-weight: 500px;
+    font-size: 14px;
+    /*margin-left: 34px;*/
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+
+
+/*текст "Согласие"*/
+.text_connection4 {
+
+    /* 18 montserrat */
+    position: absolute;
+    margin-top: 116px;
+    margin-left: 20px;
+
+    font-family: 'Montserrat';
+    display: flex;
+    font-weight: 500px;
+    font-size: 14px;
+    /*margin-left: 34px;*/
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+
+/* button "Подписаться" */
+.connection_button {
+    /* box-sizing: border-box; */
+    padding: 16px 28px;
+    gap: 10px;
+    width: 180px;
+    height: 52px;
+
+    border: 0;
+    border-radius: 35px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(71, 107, 89, 1);
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+    margin-top: 40px;
+}
+
+.connection_button:hover{
+background-color: #599D7B;
+}
+.connection_button:active{
+background-color: #3D5C4C;
+}
+
+.text_connection5 {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+   text-decoration: underline;
+    color: #313030;
+}
+.text_connection6 {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 18px;
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+ 
+    color: #313030;
+}
+.text_connection5:hover{
+    color: #599D7B;
+}
+.position_checkbox1{
+    display: flex;
+    margin-top: 34px;
+}
+
+
+/* чекбокс*/
+
+
+/* чекбокс стилизация*/
+.container_checkmark {
+    
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.custom_container{
+    /* display: inline-block; */
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(153, 154, 153);
+    background: #E6E6E5;
+    border-radius: 2px;
+  
+}
+
+.custom_container:before{
+/* content: ""; */
+background-image: url(./img/Vector\ 7.svg);
+display: inline-block;
+width: 14px;
+    height: 14px;
+background-size:contain ;
+background-repeat: no-repeat;
+margin-bottom: 3px;
+
+transform: scale(0);
+transition: 0.2s;
+}
+
+.container_checkmark:checked + .custom_container:before{
+    transform: scale(1);
+}
+
+
+.real-checkbox{
+    display: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.size1{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(153, 154, 153);
+    background: #E6E6E5;
+    border-radius: 2px;
+}
+
+
+.size1:before{
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-image: url(./img/Vector\ 7.svg);
+    
+    transform: scale(0);
+   background-repeat: no-repeat;
+    -webkit-appearance: none;
+    appearance: none;
+    text-align: center;
+    transition: 0.2s;
+    background-size:contain ;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+.real-checkbox:checked + .size1:before{
+    transform: scale(1);
+}
+
+
+  
+
+  ::placeholder {
+    
+    transform: translateX(10px) ;
+  
+  }
+
+  input[type=text]{
+    padding-left: 5px;
+ 
+  
+}
+:active, :hover, :focus {
+    border-color: #3D5C4C;
+}
