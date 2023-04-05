@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,21 +13,29 @@
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="popular_brands.css">
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
-     <link rel="stylesheet" href="section_about_us.css">
+    <link rel="stylesheet" href="section_about_us.css">
     <link rel="stylesheet" href="section_connection.css">
+    <link rel="stylesheet" href="modal_window_sizes.css">
+
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    <script defer src="./m.js"></script>
+
 
     <title>Главная</title>
 </head>
+
 <body>
+
     <body style='overflow-x:hidden;'></body>
     <header>
         <div>
-            <section  class="header_1">
+            <section class="header_1">
                 <!-- <a href="" class="lupa"><img src="./img/Vector.svg" alt=""></a> -->
                 <div>
                     <ul class="header_list_1" id="head_1">
-                        <li><a href="https://stilnaya-pohodka.ru/"><img src="./img/логотип SVG.svg" alt="Стильная походка"></a></li>
-                        <li class="list-hover-green"><a href="" >О нас</a></li>
+                        <li><a href="https://stilnaya-pohodka.ru/"><img src="./img/логотип SVG.svg"
+                                    alt="Стильная походка"></a></li>
+                        <li class="list-hover-green"><a href="">О нас</a></li>
                         <li><a href="" class="list-hover-green">Как сделать заказ</a></li>
                         <li><a href="" class="list-hover-green">Доставка</a></li>
                         <li><a href="" class="list-hover-green">Гарантия и возврат</a></li>
@@ -34,17 +43,18 @@
                         <li>
                             <form action="./404/index.html" class="header-form">
                                 <input type="text" class="header_textbox_1" class="header-input">
-                                <button src="./404/index.html" class="header-button"><img src="./img/Vector.svg" alt=""></button>
-                        
-                             </form>
+                                <button src="./404/index.html" class="header-button"><img src="./img/Vector.svg"
+                                        alt=""></button>
+
+                            </form>
                         </li>
                         <li class="header_number"><a href="" class="list-hover-green">8 (800) 573-73-73</a></li>
                     </ul>
-                    
+
                 </div>
 
             </section>
-            <section  class="header_2">
+            <section class="header_2">
                 <div class="header_21">
                     <div class="header_list2">
                         <ul class="header_list_2" id="head_2">
@@ -52,108 +62,155 @@
                                 <div class="dropdown">
                                     <button class="dropbtn"><a href="#">Женская обувь</a></button>
                                     <div class="dropdown-content">
-                                      <a href="#" class="dropdown-text">Сапоги</a>
-                                      <a href="#" class="dropdown-text">Полусапоги</a>
-                                      <a href="#" class="dropdown-text">Ботинки</a>
-                                      <a href="#" class="dropdown-text">Полуботинки</a>
-                                      <a href="#" class="dropdown-text">Туфли</a>
-                                      <a href="#" class="dropdown-text">Мокасины</a>
-                                      <a href="#" class="dropdown-text">Кроссовки</a>
-                                      <a href="#" class="dropdown-text">Сандалии</a>
-                                      <a href="#" class="dropdown-text">Пантолеты</a>
+                                        <a href="#" class="dropdown-text">Сапоги</a>
+                                        <a href="#" class="dropdown-text">Полусапоги</a>
+                                        <a href="#" class="dropdown-text">Ботинки</a>
+                                        <a href="#" class="dropdown-text">Полуботинки</a>
+                                        <a href="#" class="dropdown-text">Туфли</a>
+                                        <a href="#" class="dropdown-text">Мокасины</a>
+                                        <a href="#" class="dropdown-text">Кроссовки</a>
+                                        <a href="#" class="dropdown-text">Сандалии</a>
+                                        <a href="#" class="dropdown-text">Пантолеты</a>
                                     </div>
-                                  </div>
+                                </div>
                             </li>
                             <li class="li-margin">
                                 <div class="dropdown">
                                     <button class="dropbtn"><a href="#">Мужская обувь</a></button>
                                     <div class="dropdown-content">
-                                      
-                                    
-                                      <a href="#" class="dropdown-text">Ботинки</a>
-                                      <a href="#" class="dropdown-text">Полуботинки</a>
-                                      <a href="#" class="dropdown-text">Кроссовки</a>
-                                      <a href="#" class="dropdown-text">Мокасины</a>
-                                      <a href="#" class="dropdown-text">Кроссовки</a>
-                                      <a href="#" class="dropdown-text">Сандалии</a>
-                                      <a href="#" class="dropdown-text">Сапоги</a>
+
+
+                                        <a href="#" class="dropdown-text">Ботинки</a>
+                                        <a href="#" class="dropdown-text">Полуботинки</a>
+                                        <a href="#" class="dropdown-text">Кроссовки</a>
+                                        <a href="#" class="dropdown-text">Мокасины</a>
+                                        <a href="#" class="dropdown-text">Кроссовки</a>
+                                        <a href="#" class="dropdown-text">Сандалии</a>
+                                        <a href="#" class="dropdown-text">Сапоги</a>
                                     </div>
-                                  </div>
-    
+                                </div>
+
                             </li>
                             <li class="li-margin">
                                 <div class="dropdown">
                                     <button class="dropbtn"><a href="#">Сумки</a></button>
                                     <div class="dropdown-content">
-                                      
-                                    
-                                      <a href="#" class="dropdown-text">Сумки</a>
-                                      <a href="#" class="dropdown-text">Рюкзаки</a>
-                                    
+
+
+                                        <a href="#" class="dropdown-text">Сумки</a>
+                                        <a href="#" class="dropdown-text">Рюкзаки</a>
+
                                     </div>
-                                  </div>
+                                </div>
                             </li>
-                            <li class="li-margin"><a href="" class="dropbtn1">Аксессуары                           </a></li>
+                            <li class="li-margin"><a href="" class="dropbtn1">Аксессуары </a></li>
                             <li class="li-margin"><a href="" class="dropbtn1">Бренды</a></li>
-                            
+
                         </ul>
                     </div>
-    
+
                     <div class="busket1">
                         <a href=""><img src="./img/Basket.svg" alt="Basket" class="header_basket"></a>
+
+                        <!-- ..........................................СЧЁТЧИК КОРЗИНЫ............................................-->
+                        <div class="cart__num" id="cart_num">2</div>
                     </div>
                 </div>
 
-                
+
             </section>
         </div>
 
     </header>
 
-<section class="baner_1">
-    <ul class="baner_list_1">
-        <li class="baner_text_1">Стильная походка</li>
-        <li class="baner_text_2">Большой выбор современных и качественных моделей обуви из натуральных материалов</li>
-        <li>
-            <a href="" class="baner_button_1">
-                
+    <section class="baner_1">
+        <ul class="baner_list_1">
+            <li class="baner_text_1">Стильная походка</li>
+            <li class="baner_text_2">Большой выбор современных и качественных моделей обуви из натуральных материалов
+            </li>
+            <li>
+                <a href="" class="baner_button_1">
+
                     <p class="baner_text_3">Смотреть каталог</p>
-                
-            </a>
-        </li>
-</section>
+
+                </a>
+            </li>
+    </section>
+
+    <!-- .................Блок МОДАЛКА.................. -->
+
+    <!-- Элементы для вызова модальных окон, могут быть любые -->
+    <!-- <a href="#" class="link1  js-open-modal">Открыть окно 1</a> -->
+
+    <!-- ...........Модальное окно...........-->
+    <div id="" class="modal">
+
+        <p id="" class="title">Выберите размер</p>
+        <section class="modal_section">
+            <div id="" class="modal_div">
+                <p class="modal_size_ru">35</p>
+                <p class="modal_size_eu">2,5</p>
+            </div>
+            <div id="" class="modal_div">
+                <p class="modal_size_ru">36</p>
+                <p class="modal_size_eu">3,5</p>
+            </div>
+            <div id="" class="modal_div">
+                <p class="modal_size_ru">37</p>
+                <p class="modal_size_eu">4</p>
+            </div>
+            <div id="" class="modal_div5">
+                <p class="modal_size_ru">38</p>
+                <p class="modal_size_eu">5</p>
+            </div>
+            <div id="" class="modal_div">
+                <p class="modal_size_ru">39</p>
+                <p class="modal_size_eu">6</p>
+            </div>
+            <div id="" class="modal_div65">
+                <p class="modal_size_ru">40</p>
+                <p class="modal_size_eu">6,5</p>
+            </div>
+        </section>
+        <div id="" class="modal_div_text">
+            <p class="text">Руководство по размерам</p>
+        </div>
+    </div>
+
+    <!-- Подложка под модальным окном -->
+    <div id="text" class="overlay" id="overlay-modal"></div>
 
 
+    <!-- .....................Блок "Модалки" ................................ -->
 
-
-   <div>
     <div>
-        <div class="adva1">
-            <div class="adva">
-                <div class="adv-text">
-                    <img src="./img/sneakers.svg" alt="" class="adv-logo">
-                    <p>Редкие и нестандартные <br> размеры обуви</p>
-    
-                </div>
-                          
-                
-    
-                <div class="adv-text">
-                    <img src="./img/shoes.svg" alt="" class="adv-logo">
-                    <p class="adv-tezt">Доставка нескольких <br> пар обуви на дом</p>
-    
-                </div>
-    
-                <div class="adv-text">
-                    <img src="./img/shop.svg" alt="" class="adv-logo">
-                    <p>Удобное расположение <br> магазинов в крупных ТЦ</p>
-    
+        <div>
+            <div class="adva1">
+                <div class="adva">
+                    <div class="adv-text">
+                        <img src="./img/sneakers.svg" alt="" class="adv-logo">
+                        <p>Редкие и нестандартные <br> размеры обуви</p>
+
+                    </div>
+
+
+
+                    <div class="adv-text">
+                        <img src="./img/shoes.svg" alt="" class="adv-logo">
+                        <p class="adv-tezt">Доставка нескольких <br> пар обуви на дом</p>
+
+                    </div>
+
+                    <div class="adv-text">
+                        <img src="./img/shop.svg" alt="" class="adv-logo">
+                        <p>Удобное расположение <br> магазинов в крупных ТЦ</p>
+
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
-    
-   </div>
 
     <br>
 
@@ -163,45 +220,45 @@
                 <p class="sale-text">Акции</p>
             </div>
             <div class="sale-card">
-                <div >
+                <div>
                     <script src="script.js"></script>
                     <div>
                         <div class="sale-div1">
-                          
+
                             <div class="sale-link4">
                                 <a href="#" class="sale-link1">Смотреть</a>
                                 <img src="./img/strelka.svg" alt="" class="strelka1">
                             </div>
-                           
+
                         </div>
-                        
-    
-                        <a href="#"><img src="./img/men1.jpg" alt="" class="sale-photo1"  ></a>
-                        
+
+
+                        <a href="#"><img src="./img/men1.jpg" alt="" class="sale-photo1"></a>
+
                     </div>
-                    
+
 
 
                 </div>
 
-                <div class="sale-shadow"> 
+                <div class="sale-shadow">
                     <div class="sale-shadow">
                         <div class="sale-div2">
                             <!-- <p class="person2">-5%</p>
                             <p class="model2">ПО СОЦИАЛЬНОЙ <br>КАРТЕ НА ВСЕ</p> -->
                             <div class="sale-link3">
-                               
-                                    <a href="#" class="sale-link2">Смотреть</a>
-                                    <a href="#"><img src="./img/strelka.svg" alt="" class="strelka2 sale-shadow"></a>
-                                
+
+                                <a href="#" class="sale-link2">Смотреть</a>
+                                <a href="#"><img src="./img/strelka.svg" alt="" class="strelka2 sale-shadow"></a>
+
                             </div>
-                           
-                            
+
+
                         </div>
-                        <a href="#"><img src="./img/women1.jpg" alt="" class="sale-photo2" ></a>
-                        
-    
-                        
+                        <a href="#"><img src="./img/women1.jpg" alt="" class="sale-photo2"></a>
+
+
+
                     </div>
 
 
@@ -215,7 +272,7 @@
     <div class="product0">
         <div class="product">
             <div class="product-categories">
-               
+
                 <ul class="product-categories-list">
                     <li class="product-categories-list1">
                         <a href="">
@@ -234,7 +291,7 @@
                             <p class="product-categories2">Распродажа</p>
                         </a>
                     </li>
-                    
+
                 </ul>
             </div>
 
@@ -243,9 +300,9 @@
 
 
 
-   
 
-           <div>
+
+            <div>
                 <div class="product-horizontally">
                     <div class="pr-card1">
                         <div>
@@ -256,126 +313,136 @@
                                 <div>
                                     <a href=""><img src="./img/product/product1.png" alt=""></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
                                     <p>Rieker кроссовки <br> арт. 84725077</p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price1">
                                         <p>4 990 ₽</p>
                                     </div>
-                        
+
                                     <div class="price2">
                                         <p>6 990 ₽</p>
                                     </div>
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./404/404.html" >
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
 
                     <div class="pr-card1">
-                        
+
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="./product/index.html"><img src="./img/product/main ph.jpg" alt="" class="photo2"></a>
+                                    <a href="./product/index.html"><img src="./img/product/main ph.jpg" alt=""
+                                            class="photo2"></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
                                     <p>Olanc Ботинки женские
-                                        <br> арт. 94525611</p>
+                                        <br> арт. 94525611
+                                    </p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price3">
                                         <p>12 990 ₽</p>
                                     </div>
-                        
-                                    
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./product/index.html" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./product/index.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
 
                     <div class="pr-card1">
-                        
+
                         <div class="position-product">
                             <div>
                                 <div>
                                     <a href=""><img src="./img/product/product3.png" alt=""></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
                                     <p>Rieker сандалии мужские
-                                        <br> арт. 60389675</p>
+                                        <br> арт. 60389675
+                                    </p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price3">
                                         <p>3 990 ₽</p>
                                     </div>
-                        
-                                   
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./404/404.html" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
+
+                                                    <!-- .....................Блок "Модалки" ................................ -->
+
+                                                    <!-- <a href="#" class="link1" data-modal="sizes">Размеры</a>
+                                                    <a href="#" class="link2" data-modal="delivery">Заказы</a> -->
+
+                                                    <!-- .....................Блок "Модалки" ................................ -->
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
 
@@ -388,84 +455,86 @@
                                 <div>
                                     <a href=""><img src="./img/product/product4.png" alt=""></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
                                     <p>Picolinos босоножки женские
-                                        <br> арт. 84396647</p>
+                                        <br> арт. 84396647
+                                    </p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price3">
                                         <p>6 990 ₽</p>
                                     </div>
-                        
-                                
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./404/404.html" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
                 </div>
 
                 <div class="product-horizontally1">
                     <div class="pr-card1">
-                    
+
                         <div class="position-product">
                             <div>
                                 <div>
                                     <a href=""><img src="./img/product/product5.png" alt=""></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
-                                    <p>Pikolinos ботинки женские 
-                                        <br> арт. 69325411</p>
+                                    <p>Pikolinos ботинки женские
+                                        <br> арт. 69325411
+                                    </p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price3">
                                         <p>10 990 ₽</p>
                                     </div>
-                        
-                                    
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./404/404.html" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
 
@@ -478,41 +547,42 @@
                                 <div>
                                     <a href=""><img src="./img/product/product6.jpg" alt=""></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
-                                    <p>Pikolinos кроссовки 
-                                        <br> арт. 64329007</p>
+                                    <p>Pikolinos кроссовки
+                                        <br> арт. 64329007
+                                    </p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price1">
                                         <p>5 990 ₽</p>
                                     </div>
-                        
+
                                     <div class="price2">
                                         <p>7 990 ₽</p>
                                     </div>
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./404/404.html" >
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
 
@@ -525,100 +595,96 @@
                                 <div>
                                     <a href=""><img src="./img/product/product7.jpg" alt="" class="photo2"></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
-                                    <p>Rieker туфли мужские  
-                                        <br> арт. 14305637</p>
+                                    <p>Rieker туфли мужские
+                                        <br> арт. 14305637
+                                    </p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price3">
                                         <p>7 690 ₽</p>
                                     </div>
-                        
-                                    
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./404/404.html" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
 
                     <div class="pr-card1">
-                        
+
                         <div class="position-product">
                             <div>
                                 <div>
                                     <a href=""><img src="./img/product/product8.png" alt=""></a>
                                 </div>
-                    
+
                                 <div class="pr-text1">
                                     <p>Remonte сумка-рюкзак жен...
-                                        <br> арт. 60385679</p>
+                                        <br> арт. 60385679
+                                    </p>
                                 </div>
-                    
-                               <div class="pr-price">
+
+                                <div class="pr-price">
                                     <div class="price3">
                                         <p>6 590 ₽</p>
                                     </div>
-                        
-                                    
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="./404/404.html" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
                                                     <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                                 </div>
                                             </button>
-                                            
+
                                         </a>
-                                     </div>
-                                        
-                                   
+                                    </div>
+
+
                                 </div>
                             </div>
-                           
-                           
+
+
                         </div>
                     </div>
                 </div>
-           </div>
+            </div>
 
-           <a href="http://stilnaya-pohodka.ru/catalog/" class="pr-text-end">
+            <a href="http://stilnaya-pohodka.ru/catalog/" class="pr-text-end">
                 <p>Cмотреть больше</p>
-           </a>
-    
-    
+            </a>
+
+
         </div>
     </div>
-
-
-
-
-
-
 
 
 
@@ -628,98 +694,116 @@
     <section class="popular_brands">
         <p class="popular_brands_header">Популярные бренды</p>
         <ul class="popular_brands_list">
-            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand" id="brand_1"></button></a></li>
-            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand" id="brand_2"></button></a></li>
-            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand" id="brand_3"></button></a></li>
-            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand" id="brand_4"></button></a></li>
-            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand" id="brand_5"></button></a></li>
-            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand" id="brand_6"></button></a></li>
+            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand"
+                        id="brand_1"></button></a></li>
+            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand"
+                        id="brand_2"></button></a></li>
+            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand"
+                        id="brand_3"></button></a></li>
+            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand"
+                        id="brand_4"></button></a></li>
+            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand"
+                        id="brand_5"></button></a></li>
+            <li><a href="https://stilnaya-pohodka.ru/404/"><button class="popular_brands_brand"
+                        id="brand_6"></button></a></li>
         </ul>
-        <p class="popular_brands_footerlink"><a  href="https://stilnaya-pohodka.ru/404/">Все бренды</a></p>
+        <p class="popular_brands_footerlink"><a href="https://stilnaya-pohodka.ru/404/">Все бренды</a></p>
     </section>
 
 
 
-<!-- .....................Блок "О нас"................................ -->
+    <!-- .....................Блок "О нас"................................ -->
 
-  <div>
-    <div class="section_about_us">
-        <div class="section_about_us1">
-            <section >
-                <p class="text_about_us">О нас</p>
-            </section>    
+    <div>
+        <div class="section_about_us">
+            <div class="section_about_us1">
+                <section>
+                    <p class="text_about_us">О нас</p>
+                </section>
 
-            <div class="about_position">
-                <!-- Первая карточка -->
-                <section class="section_about_white">
-                    <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
-                    <p class="text_about_white">Работаем с 1934 года</p>
-                    <p class="text_about_white1">Мы радуем своих покупателей комфортной и стильной классической обувьюс
-                        элементами
-                        ортопедии, любого размера на проблемные ноги и на большую полноту.</p>
-                </section>
-        
-        <!-- Вторая карточка -->
-                <section class="section_about_white">
-                    <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
-                    <p class="text_about_white">Качество товара</p>
-                    <p class="text_about_white1">У нас представлены товары лучших европейских производителей по ценам среднего
-                        ценового сегмента из Германии, Финляндии, Испании, Португалии, Сербии, России.</p>
-                </section>
-                
-        <!-- Третья карточка -->
-                <section class="section_about_green">
-                    <img src="img/aboutWhite.svg" alt="logo" class="logo_about_us">
-                    <p class="text_about_green">Примерка перед покупкой</p>
-                    <p class="text_about_green1">Интернет-магазин "Стильная походка" даёт возможность примерить обувь перед
-                        оплатой
-                        заказа. Оплачивайте только то, что вам подошло и понравилось!</p>
-                </section>
+                <div class="about_position">
+                    <!-- Первая карточка -->
+                    <section class="section_about_white">
+                        <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
+                        <p class="text_about_white">Работаем с 1992 года</p>
+                        <p class="text_about_white1">Мы радуем своих покупателей комфортной и стильной классической
+                            обувью с
+                            элементами
+                            ортопедии, любого размера на проблемные ноги и на большую полноту.</p>
+                    </section>
+
+                    <!-- Вторая карточка -->
+                    <section class="section_about_white">
+                        <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
+                        <p class="text_about_white">Качество товара</p>
+                        <p class="text_about_white1">У нас представлены товары лучших европейских производителей по
+                            ценам среднего
+                            ценового сегмента из Германии, Финляндии, Испании, Португалии, Сербии, России.</p>
+                    </section>
+
+                    <!-- Третья карточка -->
+                    <section class="section_about_green">
+                        <img src="img/aboutWhite.svg" alt="logo" class="logo_about_us">
+                        <p class="text_about_green">Примерка перед покупкой</p>
+                        <p class="text_about_green1">Интернет-магазин "Стильная походка" даёт возможность примерить
+                            обувь перед
+                            оплатой
+                            заказа. Оплачивайте только то, что вам подошло и понравилось!</p>
+                    </section>
+                </div>
+
+
             </div>
-        
-        
         </div>
     </div>
-  </div>
 
-<!-- .....................Конец блока "О нас".......................... -->
-
+    <!-- .....................Конец блока "О нас".......................... -->
 
 
-<div>
-    <div class="maps1">
 
-        <div>
-            <p class="contact">Контакты</p>
+    <div>
+        <div class="maps1">
 
-            <div class="map1">
-                <div class="map">
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A546a2937dff93eaeb38f336e91a96d21cef16ca9ac523233f2db73475bda5ecc&amp;source=constructor" width="670px" height="434px" frameborder="0"></iframe>
-                  </div>
+            <div>
+                <p class="contact">Контакты</p>
 
-                <div class="map-text">
-                    <p class="map-address">Адреса наших магазинов:</p>
-                    <div>
-                        <ul class="list-img">
-                            <li class="map-list"> <span> Москва, пр-т Вернадского, 14 А</span> <br> ТЦ «Обувь сити», павильон 75 (1 этаж) <br>Мы открыты ежедневно с 10:00 до 21:00 <br> 
-                            <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
-                            </li>
-                            <li class="map-list">  <span>Москва, ул. Мастеркова, 6</span> <br> ТЦ «На Автозаводской», павильон 93 (1 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br>  
-                                <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
-                            </li>
-                            <li class="map-list">  <span>Москва, пл. Джавахарлала Неру, 1 </span><br> ТЦ «Универ Сити», павильон 125 (2 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br> 
-                                <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
-                            </li>
-                        </ul>
+                <div class="map1">
+                    <div class="map">
+                        <iframe
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3A546a2937dff93eaeb38f336e91a96d21cef16ca9ac523233f2db73475bda5ecc&amp;source=constructor"
+                            width="670px" height="434px" frameborder="0"></iframe>
                     </div>
-                   
+
+                    <div class="map-text">
+                        <p class="map-address">Адреса наших магазинов:</p>
+                        <div>
+                            <ul class="list-img">
+                                <li class="map-list"> <span> Москва, пр-т Вернадского, 14 А</span> <br> ТЦ «Обувь сити»,
+                                    павильон 75 (1 этаж) <br>Мы открыты ежедневно с 10:00 до 21:00 <br>
+                                    <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
+                                </li>
+                                <li class="map-list"> <span>Москва, ул. Мастеркова, 6</span> <br> ТЦ «На Автозаводской»,
+                                    павильон 93 (1 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br>
+                                    <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
+                                </li>
+                                <li class="map-list"> <span>Москва, пл. Джавахарлала Неру, 1 </span><br> ТЦ «Универ
+                                    Сити», павильон 125 (2 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br>
+                                    <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
+
+
+
+
+
+
+
             </div>
 
-           
-
-
-          
 
 
         </div>
@@ -730,71 +814,68 @@
 
 
 
-</div>
+    <!-- .....................Блок "Обратная связь"................................ -->
 
+    <section class="section_connection_long">
 
+        <section class="section_connection">
+            <!-- Картинка-->
+            <section class="section_connection_picture"> </section>
 
-<!-- .....................Блок "Обратная связь"................................ -->
+            <section>
+                <!-- Текст-->
+                <p class="text_connection ">Подпишитесь на новости</p>
+                <p class="text_connection1 ">Узнайте первым о наших акциях и скидках</p>
+                <!-- Надписи Имя и E-mail-->
+                <div class="position_conection">
+                    <div>
+                        <form action="">
+                            <p class="text_connection2 ">Имя</p>
+                            <input type="text" placeholder="Имя" class="connection_textbox_1">
+                        </form>
 
-<section class="section_connection_long">
+                    </div>
 
-    <section class="section_connection">
-        <!-- Картинка-->
-        <section class="section_connection_picture"> </section>
+                    <div class="position_conection1">
 
-        <section>
-            <!-- Текст-->
-            <p class="text_connection ">Подпишитесь на новости</p>
-            <p class="text_connection1 ">Узнайте первым о наших акциях и скидках</p>
-            <!-- Надписи Имя и E-mail-->
-            <div class="position_conection">
-                <div>
-                    <form action="">
-                        <p class="text_connection2 ">Имя</p>
-                          <input type="text" placeholder="Имя" class="connection_textbox_1">
-                    </form>
+                        <form action="">
+                            <p class="text_connection2 ">E-mail</p>
+                            <input type="text" placeholder="E-mail" class="connection_textbox_2">
+                        </form>
 
+                    </div>
                 </div>
 
-                <div class="position_conection1">
-                    
-                    <form action="">
-                        <p class="text_connection2 ">E-mail</p>
-                        <input type="text" placeholder="E-mail" class="connection_textbox_2">
-                    </form>
+
+
+                <!-- Чекбокс подпись-->
+                <div class="position_checkbox1">
+
+
+
+                    <label>
+                        <input type="checkbox" name="radiobutton" class="real-checkbox" />
+                        <span class="size1"> </span>
+                    </label>
+
+
+                    <p class="text_connection6">Соглашаюсь с условиями <a href="" class="text_connection5">Политики
+                            обработки <br> персональных данных </a>
+                    </p>
+                    <!-- Чекбокс-->
+
 
                 </div>
-            </div>
-           
-                
-      
-            <!-- Чекбокс подпись-->
-           <div class="position_checkbox1">
-           
-                
+                <button class="connection_button">Подписаться</button>
 
-                <label>
-                    <input  type="checkbox" name="radiobutton" class="real-checkbox"/>
-                     <span class="size1"> </span>
-                </label>
-
-
-                 <p class="text_connection6">Соглашаюсь с условиями <a href="" class="text_connection5">Политики обработки <br> персональных данных </a>
-                  </p>
-                <!-- Чекбокс-->
-   
-               
-           </div>
-            <button class="connection_button">Подписаться</button>
+            </section>
 
         </section>
-
     </section>
-</section>
 
 
     <footer class="footer">
-        <div >
+        <div>
             <div class="footer-text">
                 <div class="position">
                     <div class="logo">
@@ -803,44 +884,44 @@
                                 <img src="img/logo.svg" alt="logo">
                             </a>
                         </div>
-                        
-                        
+
+
                         <div>
 
                             <div class="number">
                                 <a href="#" class="listy">8 (800) 456-10-20</a>
                             </div>
-                            
-                        
-                            <div >
+
+
+                            <div>
                                 <a href="https://www.google.ru" class="logotype1">
-                                    
+
                                 </a>
-                    
+
                                 <a href="https://www.google.ru" class="logotype2">
-                                    
+
                                 </a>
-                    
+
                                 <a href="https://www.google.ru" class="logotype3">
-                                    
+
                                 </a>
-                    
+
                                 <a href="https://www.google.ru" class="logotype4">
-                                    
+
                                 </a>
                             </div>
                         </div>
 
-                      
-            
-                      
-            
-                       
+
+
+
+
+
                     </div>
-    
+
                     <div>
                         <h3 class="naming">Каталог товаров</h3>
-                       
+
                         <ul class="list1">
                             <li><a href="#" class="list">Женская обувь</a></li>
                             <li><a href="#" class="list">Мужская обувь</a></li>
@@ -849,12 +930,12 @@
                             <li><a href="#" class="list">Бренды</a></li>
                         </ul>
                     </div>
-    
-                    <div >
+
+                    <div>
                         <h3 class="naming">Для покупателей</h3>
-                        
+
                         <ul class="list1">
-                            <li ><a href="#" class="list">Доставка</a></li>
+                            <li><a href="#" class="list">Доставка</a></li>
                             <li><a href="#" class="list">Отзывы</a></li>
                             <li><a href="#" class="list">Гарантия и возврат</a></li>
                             <li><a href="#" class="list">Как сделать заказ</a></li>
@@ -862,32 +943,33 @@
                             <li><a href="#" class="list">Правила ухода за обувью</a></li>
                         </ul>
                     </div>
-    
+
                     <div>
-    
-                        
-    
+
+
+
                         <h3 class="naming">О компании</h3>
-                        
+
                         <ul class="list1">
                             <li><a href="#" class="list">О нас</a></li>
                             <li><a href="#" class="list">Сертификаты соответствия</a></li>
                             <li><a href="#" class="list">Магазины</a></li>
-                            <li><a href="#" class="list">О проекте</a></li>                        
+                            <li><a href="#" class="list">О проекте</a></li>
                         </ul>
                     </div>
-    
-            </div>
-            
+
+                </div>
+
                 <div class="politics">
                     <a href="#" class="list9">&copy; 2023 Политика конфиденциальности</a>
-                    
+
                 </div>
 
             </div>
 
-           
+
         </div>
     </footer>
 </body>
+
 </html>
