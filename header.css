@@ -35,12 +35,8 @@ a {
    margin: 0 auto;
     width: 1440px;
     background: white;
-  
-   
-    
 }
 .header_2{
-    
     min-width: 1440px;
     background: #476B59;
     display: flex;
@@ -48,11 +44,6 @@ a {
     display: flex;
     justify-content: space-around;
     width: 0px auto;
-
-    position: sticky;
-    top: 0;
-
-    
     
 }
 
@@ -160,7 +151,7 @@ a {
 }
 .header_basket{
     display: flex;
-    margin-left: 150px;
+    margin-left: 200px;
     
 
     
@@ -268,10 +259,10 @@ a {
     z-index: 3;
 }
 
-/* Show the dropdown menu on hover */
+/* Show the dropdown menu on hover 
 .dropdown:hover .dropdown-content {display: block;
     }
-
+*/
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {text-decoration: underline;
     z-index: 3;
@@ -295,21 +286,9 @@ a {
 
 
     #head_1 a:hover {
-        color: #599D7B;
+        color: #476B59;
     
         font-weight: 600;
     }
 
-    .test1{
-    
-        
-    
-        position: sticky;
-        top: 0;
-    z-index: 4;
-        
-        
-    }
-
-
-   
+  
