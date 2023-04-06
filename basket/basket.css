@@ -599,3 +599,8 @@
 
     font-weight: 600;
 }
+.outline1{
+    padding: 1px;
+    background: #3D5C4C;
+    border-radius: 3px;
+}
