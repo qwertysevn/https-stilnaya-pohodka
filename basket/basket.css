@@ -53,9 +53,13 @@
     border-radius: 20px;
 }
 .basket_item_1{
+    width: 156px;
+    height: 156px;
     padding: 24px 0px 0px 20px;
 }
 .basket_item_2{
+    width: 156px;
+    height: 156px;
     padding: 40px 0px 0px 20px;
 }
 .basket_item_text{
