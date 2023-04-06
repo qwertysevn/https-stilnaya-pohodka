@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="section_connection.css">
     <link rel="stylesheet" href="modal_window_sizes.css">
 
-    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+    
     <script defer src="./m.js"></script>
-
+    <script src="./jquery.js"></script>
 
     <title>Главная</title>
 </head>
@@ -113,7 +113,7 @@
                         <a href=""><img src="./img/Basket.svg" alt="Basket" class="header_basket"></a>
 
                         <!-- ..........................................СЧЁТЧИК КОРЗИНЫ............................................-->
-                        <div class="cart__num" id="cart_num">2</div>
+                        <!-- <div class="cart__num" id="cart_num">2</div> -->
                     </div>
                 </div>
 
@@ -137,51 +137,6 @@
             </li>
     </section>
 
-    <!-- .................Блок МОДАЛКА.................. -->
-
-    <!-- Элементы для вызова модальных окон, могут быть любые -->
-    <!-- <a href="#" class="link1  js-open-modal">Открыть окно 1</a> -->
-
-    <!-- ...........Модальное окно...........-->
-    <div id="" class="modal">
-
-        <p id="" class="title">Выберите размер</p>
-        <section class="modal_section">
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">35</p>
-                <p class="modal_size_eu">2,5</p>
-            </div>
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">36</p>
-                <p class="modal_size_eu">3,5</p>
-            </div>
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">37</p>
-                <p class="modal_size_eu">4</p>
-            </div>
-            <div id="" class="modal_div5">
-                <p class="modal_size_ru">38</p>
-                <p class="modal_size_eu">5</p>
-            </div>
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">39</p>
-                <p class="modal_size_eu">6</p>
-            </div>
-            <div id="" class="modal_div65">
-                <p class="modal_size_ru">40</p>
-                <p class="modal_size_eu">6,5</p>
-            </div>
-        </section>
-        <div id="" class="modal_div_text">
-            <p class="text">Руководство по размерам</p>
-        </div>
-    </div>
-
-    <!-- Подложка под модальным окном -->
-    <div id="text" class="overlay" id="overlay-modal"></div>
-
-
-    <!-- .....................Блок "Модалки" ................................ -->
 
     <div>
         <div>
@@ -420,22 +375,62 @@
                                 <div>
 
                                     <div>
-                                        <a href="./404/404.html">
-                                            <button class="pr-button">
-                                                <div class="pr-button-position">
-                                                    <p class="pr-button-text">В корзину</p>
+                                        <!-- <a href="./404/404.html"> -->
+                                        <!-- .................Блок МОДАЛКА.................. -->
 
-                                                    <!-- .....................Блок "Модалки" ................................ -->
+                                        <!--.... Кнопка для вызова модального окна..........-->
+                                        <button class="pr-button js_entryButton">
+                                            <div class="pr-button-position">
+                                                <p class="pr-button-text">В корзину</p>
+                                                <img src="./img/product/basket.svg" alt="" class="pr-basket">
+                                            </div>
+                                        </button>
 
-                                                    <!-- <a href="#" class="link1" data-modal="sizes">Размеры</a>
-                                                    <a href="#" class="link2" data-modal="delivery">Заказы</a> -->
+                                        <!--............... Подложка + окно ..................-->
+                                        <div id="" class="all_modal js_entryDisplay">
 
-                                                    <!-- .....................Блок "Модалки" ................................ -->
-                                                    <img src="./img/product/basket.svg" alt="" class="pr-basket">
+                                            <!-- ...........Модальное окно...........-->
+                                            <div id="" class="modal">
+
+                                                <p id="" class="title">Выберите размер</p>
+                                                <section class="modal_section">
+                                                    <div id="" class="modal_div">
+                                                        <p class="modal_size_ru">35</p>
+                                                        <p class="modal_size_eu">2,5</p>
+                                                    </div>
+                                                    <div id="" class="modal_div">
+                                                        <p class="modal_size_ru">36</p>
+                                                        <p class="modal_size_eu">3,5</p>
+                                                    </div>
+                                                    <div id="" class="modal_div">
+                                                        <p class="modal_size_ru">37</p>
+                                                        <p class="modal_size_eu">4</p>
+                                                    </div>
+                                                    <div id="" class="modal_div5">
+                                                        <p class="modal_size_ru">38</p>
+                                                        <p class="modal_size_eu">5</p>
+                                                    </div>
+                                                    <div id="" class="modal_div">
+                                                        <p class="modal_size_ru">39</p>
+                                                        <p class="modal_size_eu">6</p>
+                                                    </div>
+                                                    <div id="" class="modal_div65">
+                                                        <p class="modal_size_ru">40</p>
+                                                        <p class="modal_size_eu">6,5</p>
+                                                    </div>
+                                                </section>
+                                                <div id="" class="modal_div_text">
+                                                    <p class="text">Руководство по размерам</p>
                                                 </div>
-                                            </button>
+                                            </div>
 
-                                        </a>
+                                            <!-- Подложка под модальным окном -->
+                                            <div id="text" class="overlay" id="overlay-modal"></div>
+
+                                        </div>
+                                        <!-- .....................Блок "Модалки" ................................ -->
+
+                                        <!-- </a> -->
                                     </div>
 
 
