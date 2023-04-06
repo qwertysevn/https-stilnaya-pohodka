@@ -534,6 +534,11 @@
     text-decoration-line: underline;
 
     color: #476B59;
+
+    cursor: pointer;
+}
+.basket_reminder_text:hover{
+    color: #599D7B;
 }
 
 .basket_shipping_2_text_1 select{
@@ -590,7 +595,7 @@
     color: #313030;
 }
 #basket_link_1 a:hover {
-    color: #476B59;
+    color: #599D7B;
 
     font-weight: 600;
 }
