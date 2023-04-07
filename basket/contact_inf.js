@@ -1,12 +1,12 @@
-const entryButton = document.querySelector('.js_entryButton1');
-const entryDisplay = document.querySelector('.js_entryDisplay1');
+const tryButton = document.querySelector('.js_tryButton');
+const tryDisplay = document.querySelector('.js_tryDisplay');
 
-entryButton.onclick = function () {
-    entryDisplay.style.display = "block";
+tryButton.onclick = function () {
+    tryDisplay.style.display = "block";
 };
 
-entryDisplay.onclick = function (event) {
+tryDisplay.onclick = function (event) {
     if (event.target.className.includes('overlay')) {
-        entryDisplay.style.display = 'none';
+        tryDisplay.style.display = 'none';
     };
 };

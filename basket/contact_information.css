@@ -16,7 +16,6 @@
 }
 
 .modal {
-
     /*  Установаем ширину окна  */
     width: 500px;
     height: 499px;
@@ -60,10 +59,20 @@
 
 /* Текст "Руководства по размерам" */
 .text {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
     margin-top: 20px;
+    margin-left: 20px;
+    color: #313030;
+}
+
+.text_price {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 750px;
+    color: #313030;
 }
 
 /* При наведении меняем цвет "Руководства по размерам" */
@@ -162,11 +171,48 @@
     color: #313030;
 }
 
-/*текст "Имя,E-mail"*/
+/*текст ИМЯ*/
+.text_connection0 {
+
+    /* 18 montserrat */
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+
+    /* identical to box height, or 18px */
+    display: flex;
+    align-items: center;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/*текст МЭЙЛ*/
 .text_connection2 {
 
     /* 18 montserrat */
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 20x;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+
+    /* identical to box height, or 18px */
+    display: flex;
+    align-items: center;
+
+    /* black_text_313030 */
+    color: #313030;
+}
+
+/*текст ТЕЛЕФОН*/
+.text_connection3 {
+
+    /* 18 montserrat */
+    margin-top: 40px;
+    margin-left: 20px;
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 16px;
@@ -180,25 +226,49 @@
 }
 
 /* Input Имя */
+.connection_textbox_3 {
+    display: flex;
+    flex: flex;
+    align-items: center;
+
+
+    margin-left: 20px;
+    margin-top: 8px;
+
+    box-sizing: border-box;
+    max-width: 460px;
+    width: 460px;
+    height: 40px;
+
+    border: 1px solid rgba(152, 152, 152, 1);
+    border-radius: 8px;
+    background-image: url(./img/x-circle.svg);
+    background-position: 434px 8px;
+    background-repeat: no-repeat;
+}
+
+
+/* Input Телефон */
 .connection_textbox_1 {
     display: flex;
     flex: flex;
     align-items: center;
 
     margin-top: 8px;
-    margin-left: 0px;
+    margin-left: 20px;
 
     box-sizing: border-box;
     height: 40px;
-    max-width: 264px;
-    width: 264px;
+    max-width: 210px;
+    width: 210px;
 
     border: 1px solid rgba(152, 152, 152, 1);
     border-radius: 8px;
     background-image: url(./img/x-circle.svg);
-    background-position: 238px 7px;
+    background-position: 184px 8px;
     background-repeat: no-repeat;
 }
+
 
 .position_conection {
     display: flex;
@@ -214,7 +284,7 @@
 }
 
 .position_conection1 {
-    margin-left: 27px;
+    margin-left: 36px;
 }
 
 /* Input E-mail */
@@ -223,18 +293,19 @@
     flex: flex;
     align-items: center;
     margin-top: 8px;
+    margin-left: 0px;
 
 
     box-sizing: border-box;
     height: 40px;
-    max-width: 264px;
-    width: 264px;
+    max-width: 210px;
+    width: 210px;
 
     border: 1px solid rgba(152, 152, 152, 1);
     border-radius: 8px;
     background-image: url(./img/x-circle.svg);
 
-    background-position: 238px 7px;
+    background-position: 184px 8px;
     background-repeat: no-repeat;
 }
 
@@ -259,25 +330,6 @@
     outline: 0;
     outline-offset: 0;
 }
-
-/*текст "Согласие"*/
-.text_connection3 {
-
-    /* 18 montserrat */
-
-    margin-top: 98px;
-    margin-left: 20px;
-
-    font-family: 'Montserrat';
-
-    font-weight: 500px;
-    font-size: 14px;
-    /*margin-left: 34px;*/
-
-    /* black_text_313030 */
-    color: #313030;
-}
-
 
 
 /*текст "Согласие"*/
@@ -400,6 +452,7 @@
     background: #E6E6E5;
     border-radius: 2px;
 
+
 }
 
 .custom_container:before {
@@ -427,6 +480,7 @@
     outline: none;
     -webkit-appearance: none;
     appearance: none;
+
 }
 
 .size1 {
@@ -436,6 +490,7 @@
     border: 2px solid rgb(153, 154, 153);
     background: #E6E6E5;
     border-radius: 2px;
+    margin-left: 20px;
 }
 
 
@@ -483,4 +538,40 @@ input[type=text] {
 :hover,
 :focus {
     border-color: #3D5C4C;
+}
+
+.basket_btn_1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 460px;
+    height: 52px;
+    border-radius: 35px;
+    background: #476B59;
+    margin-top: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.basket_btn_1:hover {
+    background-color: #599D7B;
+}
+
+.basket_btn_1:active {
+    background-color: #3D5C4C;
+}
+
+.basket_btn_text_1 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.hor {
+    float: left;
+
 }

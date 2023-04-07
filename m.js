@@ -12,3 +12,9 @@ entryDisplay.onclick = function (event) {
 };
 
 // const entryButton = document.querySelector('.');
+const divGreen = document.querySelector(".js_div_green");
+
+function changeColor() {
+    divGreen.style.color = "#FFF";
+    divGreen.style.backgroundColor = "#3D5C4C";
+}
