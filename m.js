@@ -27,6 +27,7 @@ modalBtn.addEventListener('click', () => {
     $('.all_modal').hide();
     entryButton.style.background = '#2D4539';
     entryButton.querySelector('.pr-basket').src = './img/checked_ico.svg'
+    entryButton.querySelector('.pr-button-text').textContent = 'В корзине';
 })
 
 $('.js-close-popup').click(function () {
