@@ -53,9 +53,13 @@
     border-radius: 20px;
 }
 .basket_item_1{
+    width: 156px;
+    height: 156px;
     padding: 24px 0px 0px 20px;
 }
 .basket_item_2{
+    width: 156px;
+    height: 156px;
     padding: 40px 0px 0px 20px;
 }
 .basket_item_text{
@@ -530,6 +534,11 @@
     text-decoration-line: underline;
 
     color: #476B59;
+
+    cursor: pointer;
+}
+.basket_reminder_text:hover{
+    color: #599D7B;
 }
 
 .basket_shipping_2_text_1 select{
@@ -586,7 +595,12 @@
     color: #313030;
 }
 #basket_link_1 a:hover {
-    color: #476B59;
+    color: #599D7B;
 
     font-weight: 600;
+}
+.outline1{
+    padding: 1px;
+    background: #3D5C4C;
+    border-radius: 3px;
 }
