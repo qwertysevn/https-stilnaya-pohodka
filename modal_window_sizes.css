@@ -1,7 +1,7 @@
 .all_modal {
     /* opacity: 0;
     visibility: hidden; */
-    display: none;
+    /* display: none; */
 }
 
 .overlay {
@@ -71,7 +71,25 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.modal_div1 {
+    width: 50px;
+    height: 50px;
 
+    float: left;
+
+    margin-right: 8px;
+
+    border: 1px solid rgb(49, 48, 48);
+    border-image: initial;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.modal_div1:hover {
+    background-color: #599D7B;
+    color: #FFF;
+}
 .modal_div4 {
     width: 50px;
     height: 50px;
@@ -85,10 +103,6 @@
     cursor: pointer;
 }
 
-.modal_div4.green {
-    background-color: #3D5C4C;
-    color: #FFF;
-}
 
 .modal_div p:hover {
     background-color: #599D7B;
@@ -173,6 +187,7 @@
 /* Размер российский */
 
 .modal_size_ru {
+    position: absolute;
     margin-top: 5px;
     font-family: 'Montserrat';
     font-weight: 400;
