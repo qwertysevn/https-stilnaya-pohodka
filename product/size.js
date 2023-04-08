@@ -7,3 +7,4 @@ function changeColor() {
     div_P.style.color = "#FFF";
     div_P.style.backgroundColor = "#3D5C4C";
 }
+
