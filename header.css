@@ -1,46 +1,116 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
+
 a {
     vertical-align: baseline;
     text-decoration: none;
 }
+
 #head_1 a {
     color: #313030;
 }
+
 #head_2 a {
     color: white;
 }
 
 
-.header_1{
-   margin: 0 auto;
+.header_1 {
+    margin: 0 auto;
     width: 1440px;
     background: white;
-  
-   
-    
 }
-.header_2{
-    
+
+.header_2 {
     min-width: 1440px;
     background: #476B59;
     display: flex;
@@ -49,50 +119,45 @@ a {
     justify-content: space-around;
     width: 0px auto;
 
-    position: sticky;
-    top: 0;
-
-    
-    
 }
 
-.header_21{
+.header_21 {
     display: flex;
     flex-direction: row;
-    
-    
+
+
 
 }
 
-.header-input{
+.header-input {
     display: block;
 }
 
-.header-button{
+.header-button {
     border: none;
     position: absolute;
     top: 27px;
     margin-left: 250px;
     cursor: pointer;
     background: none;
-    
+
 }
 
-.header-form{
+.header-form {
     position: a;
 }
 
 
 
 
-.header_list2{
+.header_list2 {
     margin-right: 200px;
-    
+
 }
 
 
 
-.header_list_1{
+.header_list_1 {
     height: 76px;
     display: flex;
     flex: flex;
@@ -105,8 +170,8 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-  
-    
+
+
 }
 
 
@@ -114,13 +179,13 @@ a {
 
 
 
-.header_list_2{
+.header_list_2 {
     height: 52px;
     display: flex;
     flex: flex;
     align-items: center;
     justify-content: center;
-    
+
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -131,7 +196,8 @@ a {
     width: 1440px;
     margin: 0 auto;
 }
-.header_textbox_1{
+
+.header_textbox_1 {
     display: flex;
     flex: flex;
     align-items: center;
@@ -144,67 +210,71 @@ a {
     border: 1px solid #989898;
     border-radius: 30px;
     padding-left: 20px;
-    outline-color:  #476B59;
+    outline-color: #476B59;
 
 }
 
-.lupa{
+.lupa {
     position: absolute;
     margin-top: 27px;
     margin-left: 1208px;
-    
+
 }
 
-.header_element{
+.header_element {
     cursor: pointer;
 }
-.header_basket{
+
+.header_basket {
     display: flex;
     margin-left: 150px;
-    
 
-    
+
+
 }
-.header_Search{
+
+.header_Search {
     margin-right: 20px;
 }
-.header_number{
-	font-family: 'Montserrat';
+
+.header_number {
+    font-family: 'Montserrat';
     color: #313030;
     letter-spacing: 1px;
     margin-right: 17px;
 }
+
 @font-face {
-    font-family: "Tenor Sans"; 
-    src: url("source/font/TenorSans-Regular.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-    }
+    font-family: "Tenor Sans";
+    src: url("source/font/TenorSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 @font-face {
-    font-family: "Montserrat"; 
-    src: url("source/font/Montserrat-VariableFont_wght.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    font-family: "Montserrat";
+    src: url("source/font/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 
 
 
-.dropbtn1:hover{
+.dropbtn1:hover {
     text-decoration: underline;
 
 }
 
-.li-margin{
-    z-index: 5;
+.li-margin {
     margin-left: 40px;
 }
 
-.busket1{
-   position: absolute;
-   box-sizing: border-box;
-   padding-top: 13px;
-   margin-left: 1280px;
+.busket1 {
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 13px;
+    margin-left: 1280px;
 
 
 }
@@ -217,10 +287,10 @@ a {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color:  #476B59;
-    
+    background-color: #476B59;
+
     color: white;
-  
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -228,12 +298,12 @@ a {
     line-height: 100%;
     color: #FFFFFF;
     border: none;
-    z-index: 100;
+    z-index: 3;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    z-index: 100;
+
     position: relative;
     display: inline-block;
 }
@@ -244,12 +314,12 @@ a {
     padding-top: 13px;
     display: none;
     position: absolute;
-    background-color:  #476B59;
-    
+    background-color: #476B59;
+
     min-width: 160px;
     left: -8px;
     z-index: 1;
-    border-radius: 0px 0px 10px 10px; 
+    border-radius: 0px 0px 10px 10px;
     font-size: 16px;
     font-family: 'Montserrat';
 }
@@ -260,27 +330,29 @@ a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    z-index: 100;
-   
+
+
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     text-decoration: underline;
-    z-index: 30;
+    z-index: 3;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;
-    }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {text-decoration: underline;
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
     z-index: 3;
-    }
+}
 
 
-    /* .list-hover-green:hover{
+/* .list-hover-green:hover{
         
    
         color: #476B59;
@@ -290,28 +362,35 @@ a {
     } */
 
 
-    .dropdown-text{
-        display: flex;
-        margin-left: 5px;
-    }
+.dropdown-text {
+    display: flex;
+    margin-left: 5px;
+}
 
 
-    #head_1 a:hover {
-        color: #599D7B;
-    
-        font-weight: 600;
-    }
+#head_1 a:hover {
+    color: #476B59;
 
-    .test1{
-    
-        
-    
-        position: sticky;
-        top: 0;
-    z-index: 4;
-        
-        
-    }
+    font-weight: 600;
+}
 
+/* Счётчик корзины */
+.cart__num {
+    position: absolute;
+    background-color: #FFF;
+    width: 15px;
+    height: 13px;
+    border-radius: 1px;
+    top: 18px;
+    right: -3px;
 
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #313030;
+}
