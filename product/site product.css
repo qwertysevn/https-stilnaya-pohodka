@@ -1,198 +1,212 @@
-.shoes1{
+.shoes1 {
     min-width: 1440px;
     margin: 0 auto;
     background-color: #f8f8f8;
 }
 .shoes {
-
     width: 1440px;
     margin: 0 auto;
-    
-    
 }
 
-.shoestop{
+.shoestop {
     font-family: Montserrat;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-padding-top: 40px;
-margin-left: 40px;
-color: #313030;
-}
-
-.shoesname{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 40px;
+    margin-left: 40px;
     color: #313030;
-    
-font-family: Montserrat;
-font-size: 35px;
-font-weight: 400;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
-margin-top: 31px;
-margin-left: 40px;
-
-
 }
 
-.article{
+.shoesname {
+    color: #313030;
+
     font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #313030;
-margin-top: 5px;
-margin-left: 40px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 31px;
+    margin-left: 40px;
 }
 
-.shoeposition{
+.article {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313030;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.shoeposition {
     display: flex;
     margin-top: 40px;
     margin-left: 40px;
 }
 
-.leftpfoto{
-   
+.leftpfoto {
 }
 
-.mainphoto{
+.mainphoto {
     margin-left: 10px;
 }
-.leftpfoto1{
+.leftpfoto1 {
     margin-top: 20px;
     width: 210px;
     height: 210px;
     border-radius: 20px;
 }
 
-.mainphoto{
+.mainphoto {
     width: 440px;
-height: 440px;
-border-radius: 20px;
+    height: 440px;
+    border-radius: 20px;
 }
 
-.leftpfoto{
+.leftpfoto {
     width: 210px;
-height: 210px;
-border-radius: 20px;
+    height: 210px;
+    border-radius: 20px;
 }
 
-.characteristics{
+.characteristics {
     margin-left: 30px;
 }
 
-.size{
+.size {
     font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-color: #313030;
-
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #313030;
 }
 
-
-.instucrion{
+.instucrion {
     text-decoration: none;
     font-family: Montserrat;
-font-size: 18px;
-font-weight: 800;
-line-height: 24px;
-color: #313030;
-text-decoration: underline;
-margin-top: 16px;
-}
-
-.instucrion:hover{
-   text-decoration: underline;
-    color: #599D7B;
-}
-
-.compound{
-    font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-margin-top: 20px;
-color: #313030;
-}
-
-.color{
-    display: flex;
-    font-family: Montserrat;
-    gap: 7px;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #6F6666;
-margin-top: 16px;
-}
-
-.brend{
-    font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #6F6666;
-margin-top: 16px;
-}
-
-.brend1{
-    color: #6F6666;
-}
-.brend1:hover{
-   
-    color: #599D7B;
-}
-
-.allproduct{
-    font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #6F6666;
-margin-top: 8px;
-}
-
-.allproduct:hover{
-    text-decoration: underline;
-    color: #599D7B;
-}
-
-.price{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
     color: #313030;
-    font-family: Montserrat;
-font-size: 32px;
-font-weight: 600;
-line-height: 40px;
-margin-top: 20px;
-
-}
-
-.size-pozition{
+    text-decoration: underline;
     margin-top: 16px;
 }
 
-
-.checkbox1{
-    height: 50px;
-    width: 50px;
-
+.instucrion:hover {
+    text-decoration: underline;
+    color: #599d7b;
 }
 
-.real-checkbox{
+.compound {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    color: #313030;
+}
+
+.color {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6f6666;
+    margin-top: 16px;
+}
+
+/* ИЗМЕНЕНИЕ DIVов С ЦВЕТОМ */
+
+/* цвет обведённый */
+.first_color {
+    display: flex;
+    background-color: #ba9d88;
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+
+    border-radius: 3px;
+    border: 2px solid #3d5c4c;
+    cursor: pointer;
+}
+
+/* второй цвет */
+.second_color {
+    display: flex;
+    background-color: #d9c7b9;
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.brend {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6f6666;
+    margin-top: 16px;
+}
+
+.brend1 {
+    color: #6f6666;
+}
+.brend1:hover {
+    color: #599d7b;
+}
+
+.allproduct {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6f6666;
+    margin-top: 8px;
+}
+
+.allproduct:hover {
+    text-decoration: underline;
+    color: #599d7b;
+}
+
+.price {
+    color: #313030;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.size-pozition {
+    margin-top: 16px;
+}
+
+.checkbox1 {
+    height: 50px;
+    width: 50px;
+}
+
+.real-checkbox {
     display: none;
     border: none;
     outline: none;
@@ -200,18 +214,16 @@ margin-top: 20px;
     appearance: none;
 }
 
-.checkboxcolor1{
+.checkboxcolor1 {
     display: inline-block;
-    background-color: #BA9D88;
+    background-color: #ba9d88;
     width: 20px;
     height: 20px;
+    margin-left: 7px;
     border-radius: 3px;
 }
 
-
-
-
-.size1{
+.size1 {
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -220,13 +232,12 @@ margin-top: 20px;
     content: "39";
 }
 
-
-.size1:before{
+.size1:before {
     content: "39";
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-color: #3D5C4C;
+    background-color: #3d5c4c;
     border: 0px;
     transform: scale(0);
     color: #ffffff;
@@ -235,16 +246,11 @@ margin-top: 20px;
     text-align: center;
 }
 
-
-
-
-
-.real-checkbox:checked + .size1:before{
+.real-checkbox:checked + .size1:before {
     transform: scale(1);
 }
 
-
-.size2{
+.size2 {
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -253,32 +259,25 @@ margin-top: 20px;
     content: "39,5";
 }
 
-
-.size2:before{
+.size2:before {
     content: "39,5";
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-color: #3D5C4C;
+    background-color: #3d5c4c;
     -webkit-appearance: none;
     appearance: none;
     transform: scale(0);
     color: #ffffff;
     font-family: Montserrat;
     text-align: center;
-
 }
 
-
-
-
-
-.real-checkbox:checked + .size2:before{
+.real-checkbox:checked + .size2:before {
     transform: scale(1);
 }
 
-
-.size3{
+.size3 {
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -287,34 +286,26 @@ margin-top: 20px;
     content: "40";
 }
 
-
-.size3:before{
+.size3:before {
     content: "40 ";
     text-align: center;
-    
+
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-color: #3D5C4C;
+    background-color: #3d5c4c;
     border: none;
     outline: none;
     transform: scale(0);
     color: #ffffff;
     font-family: Montserrat;
-    
-
-
 }
 
-
-
-
-
-.real-checkbox:checked + .size3:before{
+.real-checkbox:checked + .size3:before {
     transform: scale(1);
 }
 
-.size4{
+.size4 {
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -323,27 +314,22 @@ margin-top: 20px;
     content: "40,5";
 }
 
-
-.size4:before{
+.size4:before {
     content: "40,5";
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-color: #3D5C4C;
+    background-color: #3d5c4c;
     border: none;
     transform: scale(0);
     color: #ffffff;
     text-align: center;
 }
 
-
-
-
-
-.real-checkbox:checked + .size4:before{
+.real-checkbox:checked + .size4:before {
     transform: scale(1);
 }
-.size5{
+.size5 {
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -352,28 +338,23 @@ margin-top: 20px;
     content: "41";
 }
 
-
-.size5:before{
+.size5:before {
     content: "41";
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-color: #3D5C4C;
+    background-color: #3d5c4c;
     border: none;
     transform: scale(0);
     color: #ffffff;
     text-align: center;
 }
 
-
-
-
-
-.real-checkbox:checked + .size5:before{
+.real-checkbox:checked + .size5:before {
     transform: scale(1);
 }
 
-.size6{
+.size6 {
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -383,24 +364,19 @@ margin-top: 20px;
     color: #000;
 }
 
-
-.size6:before{
+.size6:before {
     content: "42";
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-color: #3D5C4C;
+    background-color: #3d5c4c;
     border: none;
     transform: scale(0);
     color: #ffffff;
     text-align: center;
 }
 
-
-
-
-
-.real-checkbox:checked + .size6:before{
+.real-checkbox:checked + .size6:before {
     transform: scale(1);
 }
 /* .checkboxcolor1:before{
@@ -419,68 +395,36 @@ margin-top: 20px;
     transform: scale(1);
 } */
 
-
-
-
-
-.checkboxcolor2{
+.checkboxcolor2 {
     display: inline-block;
-    background: #D9C7B9;
-    
+    background: #d9c7b9;
+
     width: 20px;
     height: 20px;
+    margin-left: 7px;
     border-radius: 3px;
-  
 }
-
 
 /* Информация о доставке */
 
-.info1{
+.info1 {
     height: 764px;
     min-width: 1440px;
     margin: 0 auto;
-    background-color: #E6E6E5;
-    
-
+    background-color: #e6e6e5;
 }
 
-.info{
+.info {
     height: 764px;
     width: 1440px;
     margin: 0 auto;
-    background-color: #E6E6E5;
-    color:  #313030;
-
+    background-color: #e6e6e5;
+    color: #313030;
 }
 
-.delivery{
-   padding-top: 80px;
-   
-  
-font-family: Tenor Sans;
-font-size: 50px;
-font-weight: 400;
-line-height: 60px;
-letter-spacing: 0em;
-text-align: center;
+.delivery {
+    padding-top: 80px;
 
-}
-
-.delivery-list{
-    display: flex;
-    margin-top: 40px;
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-}
-
-.payment{
-    padding-top: 40px;
-   
-  
     font-family: Tenor Sans;
     font-size: 50px;
     font-weight: 400;
@@ -489,179 +433,187 @@ line-height: 22px;
     text-align: center;
 }
 
-.payment-list{
+.delivery-list {
     display: flex;
     margin-top: 40px;
-       font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
 
-.delivery-list1{
+.payment {
+    padding-top: 40px;
+
+    font-family: Tenor Sans;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.payment-list {
+    display: flex;
+    margin-top: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.delivery-list1 {
     margin-left: 40px;
 }
 
-.list-deliv{
-    
+.list-deliv {
 }
 
-.delivery-list2{
+.delivery-list2 {
     margin-left: 130px;
     margin-right: 77px;
 }
 
-.list-deliv2{
+.list-deliv2 {
     margin-top: 20px;
 }
 
-.list-deliv3{
+.list-deliv3 {
     margin-top: 20px;
 }
 
-.delivery-list3{
+.delivery-list3 {
     margin-left: 170px;
     margin-right: 77px;
 }
 
-.deliv-link{
-    color:  #313030;
+.deliv-link {
+    color: #313030;
     text-decoration: underline;
 }
 
-.deliv-link2{
-    color:  #313030;
+.deliv-link2 {
+    color: #313030;
     text-decoration: underline;
     font-weight: 700;
 }
 
-
 /* характеристики */
 
-
-.ch-list1{
+.ch-list1 {
     min-width: 1440px;
     margin: 0 auto;
     background-color: #f8f8f8;
 }
-.ch-list{
+.ch-list {
     padding-top: 80px;
-        width: 1440px;
+    width: 1440px;
     margin: 0 auto;
-    color:  #313030;
-     
+    color: #313030;
 }
 
-.ch-spisok{
-    color: #6F6666;
+.ch-spisok {
+    color: #6f6666;
     font-style: normal;
-    font-family: 'Montserrat';
-font-weight: 400;
-font-size: 18px;
-line-height: 34px;
-
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
 }
 
-.ch-spisok1{
-    color:  #313030;
-    font-family: 'Montserrat';
+.ch-spisok1 {
+    color: #313030;
+    font-family: "Montserrat";
     font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 34px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
 }
 
-.ch-position{
+.ch-position {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-.ch-characteristics{
-    
-font-family: Tenor Sans;
-font-size: 50px;
-font-weight: 400;
-line-height: 60px;
-letter-spacing: 0em;
-text-align: center;
-
+.ch-characteristics {
+    font-family: Tenor Sans;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
+.ch-post {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
 
-.ch-post{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-margin-top: 40px;
-padding-bottom:  80px;
-
-color: #6F6666;
+    color: #6f6666;
 }
 
-.ch-position-list{
+.ch-position-list {
     display: flex;
 }
 
-.ch-list4{
+.ch-list4 {
     margin-left: 60px;
 }
 
-.bredlink{
+.bredlink {
     color: #313030;
 }
 
-.bredlink:hover{
-    
-    color: #599D7B;
+.bredlink:hover {
+    color: #599d7b;
 }
 
-.pr-button1{
+.pr-button1 {
     width: 182px;
-height: 54px;
+    height: 54px;
     border-radius: 35px;
-    background: #476B59;
+    background: #476b59;
     margin-top: 28px;
     border: none;
     cursor: pointer;
 }
 
-.pr-button1:hover{
-    background-color:#599D7B;
+.pr-button1:hover {
+    background-color: #599d7b;
 }
-.pr-button1:active{
-    background-color:#3D5C4C;
+.pr-button1:active {
+    background-color: #3d5c4c;
 }
-.pr-button-text1{
+.pr-button-text1 {
     display: flex;
     /* justify-content: center; */
     /* width: 98px;
 height: 24px; */
-color: #ffffff;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-white-space: nowrap;
-text-align: center;
-margin-left: 52px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: nowrap;
+    text-align: center;
+    margin-left: 52px;
 }
 
-.pr-button-position1{
-    
-   
-    
-    
+.pr-button-position1 {
 }
 
-.photo2{
+.photo2 {
     height: 277px;
     width: 293px;
-    
+
     border-radius: 20px;
 }
