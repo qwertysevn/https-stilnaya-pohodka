@@ -425,6 +425,7 @@
 }
 .basket_shipping_radiobutton_1 input[type=radio] {
 	display: none;
+
 }
 .basket_shipping_radiobutton_1 label {
 	display: inline-block;
@@ -597,4 +598,8 @@ color: #599D7B;
     color: #476B59;
 
     font-weight: 600;
+}
+
+.imgV{
+    margin-left: 7px;
 }
