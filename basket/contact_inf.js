@@ -10,3 +10,8 @@ tryDisplay.onclick = function (event) {
         tryDisplay.style.display = 'none';
     };
 };
+
+
+    $('.js-close-popup').click(function () {
+        $('.all_modal').hide();
+    });

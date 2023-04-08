@@ -18,3 +18,7 @@ function changeColor() {
     divGreen.style.color = "#FFF";
     divGreen.style.backgroundColor = "#3D5C4C";
 }
+
+$('.js-close-modal').click(function () {
+    $('.all_modal').hide();
+});

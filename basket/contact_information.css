@@ -15,6 +15,15 @@
     transition: .3s all;
 }
 
+.x_close{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 456px;
+    margin-top: 20px;
+    cursor: pointer;
+    }
+
 .modal {
     /*  Установаем ширину окна  */
     width: 500px;
@@ -35,7 +44,7 @@
     background-color: #fff;
     transition: 0.3s all;
 }
-
+/* Контактная информация */
 .title {
     font-family: 'Tenor Sans';
     font-weight: 400;
@@ -48,44 +57,33 @@
 
 
 
-/* Нижняя полоска для "Руководства по размерам" */
-.modal_div_text {
-    width: 247px;
-    height: 20px;
-    margin-left: 26px;
-    border-bottom: 1px solid black;
-    cursor: pointer;
-}
 
-/* Текст "Руководства по размерам" */
+
+/* Текст "Сумма вашего заказа" */
 .text {
     font-family: 'Montserrat';
     font-weight: 700;
+
     font-size: 24px;
     margin-top: 20px;
     margin-left: 20px;
     color: #313030;
+    display: inline-block;
+    
 }
-
+/* Текст "17980р" */
 .text_price {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 24px;
-    margin-left: 750px;
+    /* margin-left: 750px; */
     color: #313030;
-}
-
-/* При наведении меняем цвет "Руководства по размерам" */
-.text:hover {
-    color: #599D7B;
-}
-
-.modal_div_text:hover {
-    border-bottom: 1px solid #599D7B;
+    display: inline-block;
+    margin-left: 75px;
 }
 
 
-
+/* Счётчик корзины */
 .cart__num {
     position: absolute;
     background-color: #FFF;
@@ -108,68 +106,7 @@
 
 /* Connection */
 
-/* контейнер серый */
-.section_connection {
-    margin: 40px auto;
-    max-width: 1440px;
-    height: 552px;
-    display: flex;
-    /* align-items: center; */
-    flex-wrap: wrap;
-    padding-top: 80px;
-    /* grey_fon_E6E6E5*/
-    background: #E6E6E5;
-}
 
-.section_connection_long {
-
-    height: 562px;
-
-    /* grey_fon_E6E6E5*/
-    background-color: #E6E6E5;
-}
-
-/* Контейнер с картинкой */
-.section_connection_picture {
-    margin-left: 40px;
-    margin-right: 128px;
-    width: 679px;
-    height: 392px;
-    border-radius: 19px;
-    background-color: #FFFFFF;
-    background-image: url(img/D7E11812-6C34-456D-A315-96C0334AA892\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-/* текст "Подпишитесь на новости" */
-.text_connection {
-    /* margin-top: -200px; */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 30px;
-
-    /* black_text_313030 */
-    color: #313030;
-}
-
-/*текст "Узнайте первым о наших акциях и скидках"*/
-.text_connection1 {
-
-    /* 18 montserrat */
-    margin-top: 20px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 18px;
-    display: flex;
-
-    /* black_text_313030 */
-    color: #313030;
-}
 
 /*текст ИМЯ*/
 .text_connection0 {
@@ -195,7 +132,7 @@
     /* 18 montserrat */
     margin-top: 40px;
     margin-left: 20x;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 16px;
 
@@ -213,7 +150,7 @@
     /* 18 montserrat */
     margin-top: 40px;
     margin-left: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 16px;
 
@@ -309,17 +246,6 @@
     background-repeat: no-repeat;
 }
 
-.connection_textbox_2:active {
-    outline: 0;
-    outline-offset: 0;
-
-}
-
-.connection_textbox_2:focus {
-    outline: 0;
-    outline-offset: 0;
-}
-
 .connection_textbox_1:active {
     outline: 0;
     outline-offset: 0;
@@ -331,54 +257,31 @@
     outline-offset: 0;
 }
 
+.connection_textbox_2:active {
+    outline: 0;
+    outline-offset: 0;
 
-/*текст "Согласие"*/
-.text_connection4 {
+}
 
-    /* 18 montserrat */
-    position: absolute;
-    margin-top: 116px;
-    margin-left: 20px;
+.connection_textbox_2:focus {
+    outline: 0;
+    outline-offset: 0;
+}
 
-    font-family: 'Montserrat';
-    display: flex;
-    font-weight: 500px;
-    font-size: 14px;
-    /*margin-left: 34px;*/
+.connection_textbox_3:active {
+    outline: 0;
+    outline-offset: 0;
 
-    /* black_text_313030 */
-    color: #313030;
+}
+
+.connection_textbox_3:focus {
+    outline: 0;
+    outline-offset: 0;
 }
 
 
-/* button "Подписаться" */
-.connection_button {
-    /* box-sizing: border-box; */
-    padding: 16px 28px;
-    gap: 10px;
-    width: 180px;
-    height: 52px;
 
-    border: 0;
-    border-radius: 35px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: rgba(71, 107, 89, 1);
-    cursor: pointer;
-    color: #FFFFFF;
-    font-size: 16px;
-
-    margin-top: 40px;
-}
-
-.connection_button:hover {
-    background-color: #599D7B;
-}
-
-.connection_button:active {
-    background-color: #3D5C4C;
-}
-
+/* Текст "Соглашаюсь с условиями" */
 .text_connection5 {
     font-family: Montserrat;
     font-size: 14px;
@@ -399,6 +302,7 @@
     color: #313030;
 }
 
+/* Текст "Политики обработки персональных данных" */
 .text_connection6 {
     font-family: Montserrat;
     font-size: 14px;
@@ -488,7 +392,7 @@
     width: 14px;
     height: 14px;
     border: 2px solid rgb(153, 154, 153);
-    background: #E6E6E5;
+    background: #FFF;
     border-radius: 2px;
     margin-left: 20px;
 }
@@ -511,27 +415,18 @@
     margin-bottom: 3px;
 }
 
-
-
-
-
 .real-checkbox:checked+.size1:before {
     transform: scale(1);
 }
 
-
-
-
 ::placeholder {
-
     transform: translateX(10px);
-
 }
 
 input[type=text] {
     padding-left: 5px;
-
-
+    padding-top: 8px;
+    font-size: 16px;
 }
 
 :active,
@@ -569,9 +464,4 @@ input[type=text] {
     line-height: 22px;
 
     color: #FFFFFF;
-}
-
-.hor {
-    float: left;
-
 }
