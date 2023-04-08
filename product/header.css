@@ -155,7 +155,13 @@ a {
 
 }
 
+.header_basket{
+    display: flex;
+    margin-left: 150px;
+    
 
+    
+}
 
 .header_list_1 {
     height: 76px;
