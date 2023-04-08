@@ -21,6 +21,13 @@ function changeColor() {
     divP.style.backgroundColor = "#3D5C4C";
 }
 
+const modalBtn = document.querySelector('.modal_div4');
+
+modalBtn.addEventListener('click', () => {
+    $('.all_modal').hide();
+    entryButton.style.background = '#2D4539';
+    entryButton.querySelector('.pr-basket').src = './img/checked_ico.svg'
+})
 
 $('.js-close-popup').click(function () {
     $('.all_modal').hide();
