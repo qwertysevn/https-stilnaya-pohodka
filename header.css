@@ -35,8 +35,12 @@ a {
    margin: 0 auto;
     width: 1440px;
     background: white;
+  
+   
+    
 }
 .header_2{
+    
     min-width: 1440px;
     background: #476B59;
     display: flex;
@@ -44,6 +48,11 @@ a {
     display: flex;
     justify-content: space-around;
     width: 0px auto;
+
+    position: sticky;
+    top: 0;
+
+    
     
 }
 
@@ -151,7 +160,7 @@ a {
 }
 .header_basket{
     display: flex;
-    margin-left: 200px;
+    margin-left: 150px;
     
 
     
@@ -291,4 +300,16 @@ a {
         font-weight: 600;
     }
 
-  
+    .test1{
+    
+        
+    
+        position: sticky;
+        top: 0;
+    z-index: 4;
+        
+        
+    }
+
+
+   

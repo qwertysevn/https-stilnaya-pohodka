@@ -12,6 +12,7 @@ tryDisplay.onclick = function (event) {
 };
 
 
-    $('.js-close-popup').click(function () {
+
+$('.js-close-popup').click(function () {
         $('.all_modal').hide();
     });

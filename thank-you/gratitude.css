@@ -113,9 +113,6 @@ color: #FFFFFF;
     justify-content: center
 }
 
-.card1-pr{
-    height: 277px;
-}
 @font-face {
     font-family: "MonserratBold"; 
     src: url("./source/font/static/Montserrat-Bold.ttf") format("truetype"); 

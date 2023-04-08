@@ -20,6 +20,7 @@
 
     <script defer src="./m.js"></script>
     <script src="./jquery.js"></script>
+   
 
     <title>Главная</title>
 </head>
@@ -375,15 +376,17 @@
                                 <div>
 
                                     <div>
-
+                                        <!-- <a href="./404/404.html"> -->
                                         <!-- .................Блок МОДАЛКА.................. -->
 
                                         <!--.... Кнопка для вызова модального окна..........-->
-                                        <button class="pr-button js_entryButton">
+                                        <button class="pr-button js_entryButton"> 
+
                                             <div class="pr-button-position">
                                                 <p class="pr-button-text">В корзину</p>
                                                 <img src="./img/product/basket.svg" alt="" class="pr-basket">
                                             </div>
+
                                         </button>
 
                                         <!--............... Подложка + окно ..................-->
@@ -391,15 +394,16 @@
 
                                             <!-- ...........Модальное окно...........-->
                                             <div id="" class="modal">
-
-                                                <img src="./img/x-close-modal.svg" class="x_close js-close-modal">
+                                                
+                                                <img src="./img/x-close-modal.svg" class="x_close js-close-popup">
 
                                                 <p id="" class="title">Выберите размер</p>
 
-                                                <section class="modal_section">
+                                                <section class="modal_section js-modal">
+
                                                     <div id="" class="modal_div">
-                                                        <p class="modal_size_ru second">39</p>
-                                                        <p class="modal_size_eu second">6,5</p>
+                                                        <p class="modal_size_ru first">39</p>
+                                                        <p class="modal_size_eu first">5,5</p>
                                                     </div>
                                                     <div id="" class="modal_div">
                                                         <p class="modal_size_ru second">40</p>
@@ -407,7 +411,7 @@
                                                     </div>
                                                     <div id="" class="modal_div4 js_div_green" onclick="changeColor()">
                                                         <p class="modal_size_ru third">41</p>
-                                                        <p class="modal_size_eu third">7</p>
+                                                        <p class="modal_size_eu js-third">7</p>
                                                     </div>
                                                     <div id="" class="modal_div5">
                                                         <p class="modal_size_ru fourth">42</p>
@@ -422,18 +426,19 @@
                                                         <p class="modal_size_eu sixth">9,5</p>
                                                     </div>
                                                 </section>
+                                                
                                                 <div id="" class="modal_div_text">
                                                     <p class="text">Руководство по размерам</p>
                                                 </div>
                                             </div>
 
                                             <!-- Подложка под модальным окном -->
-                                            <div id="text" class="overlay" id="overlay-modal"></div>
+                                            <div id="text" class="overlay js-over" id="overlay-modal"></div>
 
                                         </div>
                                         <!-- .....................Блок "Модалки" ................................ -->
 
-
+                                        <!-- </a> -->
                                     </div>
 
 
@@ -817,15 +822,14 @@
     <section class="section_connection_long">
 
         <section class="section_connection">
-            <!--............................... Картинка...............................-->
+            <!-- Картинка-->
             <section class="section_connection_picture"> </section>
 
             <section>
-                <!-- ...............................Текст................................-->
+                <!-- Текст-->
                 <p class="text_connection ">Подпишитесь на новости</p>
                 <p class="text_connection1 ">Узнайте первым о наших акциях и скидках</p>
-
-                <!--........................ Надписи Имя и E-mail.........................-->
+                <!-- Надписи Имя и E-mail-->
                 <div class="position_conection">
                     <div>
                         <form action="">
@@ -847,7 +851,7 @@
 
 
 
-                <!-- ......................................Чекбокс подпись...................................-->
+                <!-- Чекбокс подпись-->
                 <div class="position_checkbox1">
 
                     <label>
@@ -855,11 +859,12 @@
                         <span class="size1"> </span>
                     </label>
 
+
                     <p class="text_connection6">Соглашаюсь с условиями <a href="" class="text_connection5">Политики
                             обработки <br> персональных данных </a>
                     </p>
 
-                    <!-- ..............................Чекбокс................................................-->
+                    <!-- Чекбокс-->
 
 
                 </div>

@@ -1,25 +1,21 @@
+.all_modal {
+    /* opacity: 0;
+    visibility: hidden; */
+    display: none;
+}
+
 .overlay {
-
-    /* Скрываем подложку  */
-    opacity: 0;
-    visibility: hidden;
-
     position: fixed;
-    z-index: 2;
+    z-index: 5;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .3);
-    transition: .3s all;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.3s all;
 }
 
 .modal {
-
-    /* Скрываем окно  */
-    opacity: 0;
-    visibility: hidden;
-
     /*  Установаем ширину окна  */
     width: 402px;
     height: 181px;
@@ -29,12 +25,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* ??? */
-    z-index: 3;
+    z-index: 6;
     /* Должен быть выше чем у подложки*/
 
     /*  Побочные стили   */
-    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
 
     border-radius: 20px;
     background-color: #fff;
@@ -42,7 +37,7 @@
 }
 
 .title {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-weight: 400;
     font-size: 24px;
     margin-left: 26px;
@@ -62,8 +57,21 @@
     flex: 0 0 auto;
 }
 
-
 .modal_div {
+    width: 50px;
+    height: 50px;
+
+    float: left;
+    margin-right: 8px;
+
+    border: 1px solid  rgb(49, 48, 48);
+
+    border-image: initial;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal_div4 {
     width: 50px;
     height: 50px;
     float: left;
@@ -76,26 +84,33 @@
     cursor: pointer;
 }
 
-
 .modal_div p:hover {
-    background-color: #599D7B;
-    color: #FFF;
+    background-color: #599d7b;
+    color: #fff;
 }
 
 .modal_div:hover {
-    background-color: #599D7B;
-    color: #FFF;
+    background-color: #599d7b;
+    color: #fff;
 }
 
+.modal_div4:hover {
+    background-color: #599d7b;
+    color: #fff;
+}
 
+.modal_div4 p:hover {
+    background-color: #599d7b;
+    color: #fff;
+}
 .modal_div65:hover {
-    background-color: #599D7B;
-    color: #FFF;
+    background-color: #599d7b;
+    color: #fff;
 }
 
 .modal_div65 p:hover {
-    background-color: #599D7B;
-    color: #FFF;
+    background-color: #599d7b;
+    color: #fff;
 }
 
 .modal_div5 {
@@ -111,10 +126,7 @@
     cursor: pointer;
 }
 
-
-
 .modal_div65 {
-
     width: 50px;
     height: 50px;
     float: left;
@@ -146,34 +158,37 @@
 
 /* При наведении меняем цвет "Руководства по размерам" */
 .text:hover {
-    color: #599D7B;
+    color: #599d7b;
 }
 
 .modal_div_text:hover {
-    border-bottom: 1px solid #599D7B;
+    border-bottom: 1px solid #599d7b;
 }
 
 /* Размер российский */
 
 .modal_size_ru {
     margin-top: 5px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+    height: 20px;
 }
 
 .modal_size_eu {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    color: #6F6F6F;
+    color: #6f6f6f;
+    height: 25px;
 }
 
+/* счетчик корзины */
 .cart__num {
     position: absolute;
-    background-color: #FFF;
+    background-color: #fff;
     width: 15px;
     height: 13px;
     border-radius: 1px;
@@ -184,11 +199,17 @@
     justify-content: center;
     align-items: center;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
     color: #313030;
-
-
+}
+.x_close {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 358px;
+    cursor: pointer;
 }

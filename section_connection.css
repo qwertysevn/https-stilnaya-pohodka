@@ -368,11 +368,11 @@
 
 
 
-  ::placeholder {
-    
-    transform: translateX(10px) ;
-  
-  }
+::placeholder {
+
+    transform: translateX(10px);
+
+}
 
 input[type=text] {
     padding-left: 5px;
