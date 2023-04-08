@@ -54,8 +54,12 @@
 }
 .basket_item_1{
     padding: 24px 0px 0px 20px;
+    height: 156px;
+    width: 156px;;
 }
 .basket_item_2{
+    height: 156px;
+    width: 156px;;
     padding: 40px 0px 0px 20px;
 }
 .basket_item_text{
