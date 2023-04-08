@@ -375,7 +375,9 @@
 }
 
 input[type=text] {
-    padding-left: 5px;
+     padding-left: 10px;
+    font-size: 14px;
+
 
 
 }
