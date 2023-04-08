@@ -238,6 +238,7 @@ a {
 }
 
 .header_number {
+    font-family: 'Montserrat';
     color: #313030;
     letter-spacing: 1px;
     margin-right: 17px;
