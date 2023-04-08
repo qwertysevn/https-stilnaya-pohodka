@@ -15,6 +15,11 @@
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="section_about_us.css">
     <link rel="stylesheet" href="section_connection.css">
+    <link rel="stylesheet" href="modal_window_sizes.css">
+
+
+    <script defer src="./m.js"></script>
+    <script src="./jquery.js"></script>
 
     <title>Главная</title>
 </head>
@@ -22,18 +27,19 @@
 <body>
 
     <body style='overflow-x:hidden;'></body>
-    
-        
-            <section  class="header_1">
+    <header>
+        <div>
+            <section class="header_1">
                 <!-- <a href="" class="lupa"><img src="./img/Vector.svg" alt=""></a> -->
                 <div>
                     <ul class="header_list_1" id="head_1">
-                        <li><a href="https://stilnaya-pohodka.ru/"><img src="./img/логотип SVG.svg" alt="Стильная походка"></a></li>
-                        <li class="list-hover-green"><a href="/777/" >О нас</a></li>
-                        <li><a href="/777/" class="list-hover-green">Как сделать заказ</a></li>
-                        <li><a href="/777/" class="list-hover-green">Доставка</a></li>
-                        <li><a href="/777/" class="list-hover-green">Гарантия и возврат</a></li>
-                        <li><a href="/777/" class="list-hover-green">Магазины</a></li>
+                        <li><a href="https://stilnaya-pohodka.ru/"><img src="./img/логотип SVG.svg"
+                                    alt="Стильная походка"></a></li>
+                        <li class="list-hover-green"><a href="">О нас</a></li>
+                        <li><a href="" class="list-hover-green">Как сделать заказ</a></li>
+                        <li><a href="" class="list-hover-green">Доставка</a></li>
+                        <li><a href="" class="list-hover-green">Гарантия и возврат</a></li>
+                        <li><a href="" class="list-hover-green">Магазины</a></li>
                         <li>
                             <form action="./404/index.html" class="header-form">
                                 <input type="text" class="header_textbox_1" class="header-input">
@@ -42,139 +48,95 @@
 
                             </form>
                         </li>
-                        <li class="header_number"><a href="/777/" class="list-hover-green">8 (800) 573-73-73</a></li>
+                        <li class="header_number"><a href="" class="list-hover-green">8 (800) 573-73-73</a></li>
                     </ul>
 
                 </div>
 
             </section>
-            <div  class="test1">
-                <div>
-                    
-                    <section  class="header_2">
-                        <div class="header_21">
-                            <div class="header_list2">
-                                <ul class="header_list_2" id="head_2">
-                                    <li class="li-margin1">
-                                        <div class="dropdown">
-                                            <button class="dropbtn"><a href="/777/">Женская обувь</a></button>
-                                            <div class="dropdown-content">
-                                              <a href="/777/" class="dropdown-text">Сапоги</a>
-                                              <a href="/777/" class="dropdown-text">Полусапоги</a>
-                                              <a href="/777/" class="dropdown-text">Ботинки</a>
-                                              <a href="/777/" class="dropdown-text">Полуботинки</a>
-                                              <a href="/777/" class="dropdown-text">Туфли</a>
-                                              <a href="/777/" class="dropdown-text">Мокасины</a>
-                                              <a href="/777/" class="dropdown-text">Кроссовки</a>
-                                              <a href="/777/" class="dropdown-text">Сандалии</a>
-                                              <a href="/777/" class="dropdown-text">Пантолеты</a>
-                                            </div>
-                                          </div>
-                                    </li>
-                                    <li class="li-margin">
-                                        <div class="dropdown">
-                                            <button class="dropbtn"><a href="/777/">Мужская обувь</a></button>
-                                            <div class="dropdown-content">
-                                              
-                                            
-                                              <a href="/777/" class="dropdown-text">Ботинки</a>
-                                              <a href="/777/" class="dropdown-text">Полуботинки</a>
-                                              <a href="/777/" class="dropdown-text">Кроссовки</a>
-                                              <a href="/777/" class="dropdown-text">Мокасины</a>
-                                              <a href="/777/" class="dropdown-text">Кроссовки</a>
-                                              <a href="/777/" class="dropdown-text">Сандалии</a>
-                                              <a href="/777/" class="dropdown-text">Сапоги</a>
-                                            </div>
-                                          </div>
-            
-                                    </li>
-                                    <li class="li-margin">
-                                        <div class="dropdown">
-                                            <button class="dropbtn"><a href="/777/">Сумки</a></button>
-                                            <div class="dropdown-content">
-                                              
-                                            
-                                              <a href="/777/" class="dropdown-text">Сумки</a>
-                                              <a href="/777/" class="dropdown-text">Рюкзаки</a>
-                                            
-                                            </div>
-                                          </div>
-                                    </li>
-                                    <li class="li-margin"><a href="/777/" class="dropbtn1">Аксессуары                           </a></li>
-                                    <li class="li-margin"><a href="/777/" class="dropbtn1">Бренды</a></li>
-                                    
-                                </ul>
-                            </div>
-            
-                            <div class="busket1">
-                                <a href="https://stilnaya-pohodka.ru/basket/"><img src="./img/Basket.svg" alt="Basket" class="header_basket"></a>
-                            </div>
-                        </div>
-        
-                        
-                    </section>
-                </div>
-            </div>
-        
+            <section class="header_2">
+                <div class="header_21">
+                    <div class="header_list2">
+                        <ul class="header_list_2" id="head_2">
+                            <li class="li-margin1">
+                                <div class="dropdown">
+                                    <button class="dropbtn"><a href="#">Женская обувь</a></button>
+                                    <div class="dropdown-content">
+                                        <a href="#" class="dropdown-text">Сапоги</a>
+                                        <a href="#" class="dropdown-text">Полусапоги</a>
+                                        <a href="#" class="dropdown-text">Ботинки</a>
+                                        <a href="#" class="dropdown-text">Полуботинки</a>
+                                        <a href="#" class="dropdown-text">Туфли</a>
+                                        <a href="#" class="dropdown-text">Мокасины</a>
+                                        <a href="#" class="dropdown-text">Кроссовки</a>
+                                        <a href="#" class="dropdown-text">Сандалии</a>
+                                        <a href="#" class="dropdown-text">Пантолеты</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li-margin">
+                                <div class="dropdown">
+                                    <button class="dropbtn"><a href="#">Мужская обувь</a></button>
+                                    <div class="dropdown-content">
 
-<section class="baner_1">
-    <ul class="baner_list_1">
-        <li class="baner_text_1">Стильная походка</li>
-        <li class="baner_text_2">Большой выбор современных и качественных моделей обуви из натуральных материалов</li>
-        <li>
-            <a href="/777/" class="baner_button_1">
-                
+
+                                        <a href="#" class="dropdown-text">Ботинки</a>
+                                        <a href="#" class="dropdown-text">Полуботинки</a>
+                                        <a href="#" class="dropdown-text">Кроссовки</a>
+                                        <a href="#" class="dropdown-text">Мокасины</a>
+                                        <a href="#" class="dropdown-text">Кроссовки</a>
+                                        <a href="#" class="dropdown-text">Сандалии</a>
+                                        <a href="#" class="dropdown-text">Сапоги</a>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="li-margin">
+                                <div class="dropdown">
+                                    <button class="dropbtn"><a href="#">Сумки</a></button>
+                                    <div class="dropdown-content">
+
+
+                                        <a href="#" class="dropdown-text">Сумки</a>
+                                        <a href="#" class="dropdown-text">Рюкзаки</a>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li-margin"><a href="" class="dropbtn1">Аксессуары </a></li>
+                            <li class="li-margin"><a href="" class="dropbtn1">Бренды</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="busket1">
+                        <a href=""><img src="./img/Basket.svg" alt="Basket" class="header_basket"></a>
+
+                        <!-- ..........................................СЧЁТЧИК КОРЗИНЫ............................................-->
+                        <!-- <div class="cart__num" id="cart_num">2</div> -->
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+
+    </header>
+
+    <section class="baner_1">
+        <ul class="baner_list_1">
+            <li class="baner_text_1">Стильная походка</li>
+            <li class="baner_text_2">Большой выбор современных и качественных моделей обуви из натуральных материалов
+            </li>
+            <li>
+                <a href="" class="baner_button_1">
+
                     <p class="baner_text_3">Смотреть каталог</p>
 
                 </a>
             </li>
     </section>
 
-    <!-- .................Блок МОДАЛКА.................. -->
-
-    <!-- Элементы для вызова модальных окон, могут быть любые -->
-    <!-- <a href="#" class="link1  js-open-modal">Открыть окно 1</a> -->
-
-    <!-- ...........Модальное окно...........-->
-    <div id="" class="modal">
-
-        <p id="" class="title">Выберите размер</p>
-        <section class="modal_section">
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">35</p>
-                <p class="modal_size_eu">2,5</p>
-            </div>
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">36</p>
-                <p class="modal_size_eu">3,5</p>
-            </div>
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">37</p>
-                <p class="modal_size_eu">4</p>
-            </div>
-            <div id="" class="modal_div5">
-                <p class="modal_size_ru">38</p>
-                <p class="modal_size_eu">5</p>
-            </div>
-            <div id="" class="modal_div">
-                <p class="modal_size_ru">39</p>
-                <p class="modal_size_eu">6</p>
-            </div>
-            <div id="" class="modal_div65">
-                <p class="modal_size_ru">40</p>
-                <p class="modal_size_eu">6,5</p>
-            </div>
-        </section>
-        <div id="" class="modal_div_text">
-            <p class="text">Руководство по размерам</p>
-        </div>
-    </div>
-
-    <!-- Подложка под модальным окном -->
-    <div id="text" class="overlay" id="overlay-modal"></div>
-
-
-    <!-- .....................Блок "Модалки" ................................ -->
 
     <div>
         <div>
@@ -219,15 +181,15 @@
                         <div class="sale-div1">
 
                             <div class="sale-link4">
-                                <a href="/777/" class="sale-link1">Смотреть</a>
+                                <a href="#" class="sale-link1">Смотреть</a>
                                 <img src="./img/strelka.svg" alt="" class="strelka1">
                             </div>
 
                         </div>
-                        
-    
-                        <a href="/777/"><img src="./img/men1.jpg" alt="" class="sale-photo1"  ></a>
-                        
+
+
+                        <a href="#"><img src="./img/men1.jpg" alt="" class="sale-photo1"></a>
+
                     </div>
 
 
@@ -240,18 +202,18 @@
                             <!-- <p class="person2">-5%</p>
                             <p class="model2">ПО СОЦИАЛЬНОЙ <br>КАРТЕ НА ВСЕ</p> -->
                             <div class="sale-link3">
-                               
-                                    <a href="/777/" class="sale-link2">Смотреть</a>
-                                    <a href="/777/"><img src="./img/strelka.svg" alt="" class="strelka2 sale-shadow"></a>
-                                
+
+                                <a href="#" class="sale-link2">Смотреть</a>
+                                <a href="#"><img src="./img/strelka.svg" alt="" class="strelka2 sale-shadow"></a>
+
                             </div>
 
 
                         </div>
-                        <a href="/777/"><img src="./img/women1.jpg" alt="" class="sale-photo2" ></a>
-                        
-    
-                        
+                        <a href="#"><img src="./img/women1.jpg" alt="" class="sale-photo2"></a>
+
+
+
                     </div>
 
 
@@ -268,19 +230,19 @@
 
                 <ul class="product-categories-list">
                     <li class="product-categories-list1">
-                        <a href="/777/">
+                        <a href="">
                             <p class="product-categories1">Популярные товары</p>
                         </a>
                     </li>
 
                     <li class="product-categories-list1">
-                        <a href="/777/">
+                        <a href="">
                             <p class="product-categories2">Новинки</p>
                         </a>
                     </li>
 
                     <li class="product-categories-list1">
-                        <a href="/777/">
+                        <a href="">
                             <p class="product-categories2">Распродажа</p>
                         </a>
                     </li>
@@ -304,11 +266,11 @@
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="/777/"><img src="./img/product/product1.png" alt=""></a>
+                                    <a href=""><img src="./img/product/product1.png" alt=""></a>
                                 </div>
 
                                 <div class="pr-text1">
-                                    <p>Rieker кроссовки <br> арт. 43107504</p>
+                                    <p>Rieker кроссовки <br> арт. 84725077</p>
                                 </div>
 
                                 <div class="pr-price">
@@ -319,12 +281,12 @@
                                     <div class="price2">
                                         <p>6 990 ₽</p>
                                     </div>
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="/777/" >
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
@@ -354,7 +316,8 @@
 
                                 <div class="pr-text1">
                                     <p>Olanc Ботинки женские
-                                        <br> арт. 53086344</p>
+                                        <br> арт. 94525611
+                                    </p>
                                 </div>
 
                                 <div class="pr-price">
@@ -392,41 +355,83 @@
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="/777/"><img src="./img/product/product3.png" alt=""></a>
+                                    <a href=""><img src="./img/product/product3.png" alt=""></a>
                                 </div>
 
                                 <div class="pr-text1">
                                     <p>Rieker сандалии мужские
-                                        <br> арт. 79129048</p>
+                                        <br> арт. 60389675
+                                    </p>
                                 </div>
 
                                 <div class="pr-price">
                                     <div class="price3">
                                         <p>3 990 ₽</p>
                                     </div>
-                        
-                                   
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="/777/" >
-                                            <button class="pr-button">
-                                                <div class="pr-button-position">
-                                                    <p class="pr-button-text">В корзину</p>
 
-                                                    <!-- .....................Блок "Модалки" ................................ -->
 
-                                                    <!-- <a href="#" class="link1" data-modal="sizes">Размеры</a>
-                                                    <a href="#" class="link2" data-modal="delivery">Заказы</a> -->
+                                </div>
 
-                                                    <!-- .....................Блок "Модалки" ................................ -->
-                                                    <img src="./img/product/basket.svg" alt="" class="pr-basket">
+                                <div>
+
+                                    <div>
+                                        <!-- <a href="./404/404.html"> -->
+                                        <!-- .................Блок МОДАЛКА.................. -->
+
+                                        <!--.... Кнопка для вызова модального окна..........-->
+                                        <button class="pr-button js_entryButton">
+                                            <div class="pr-button-position">
+                                                <p class="pr-button-text">В корзину</p>
+                                                <img src="./img/product/basket.svg" alt="" class="pr-basket">
+                                            </div>
+                                        </button>
+
+                                        <!--............... Подложка + окно ..................-->
+                                        <div id="" class="all_modal js_entryDisplay">
+
+                                            <!-- ...........Модальное окно...........-->
+                                            <div id="" class="modal">
+                                                <img src="./img/x-close-modal.svg" class="x_close js-close-modal">
+
+                                                <p id="" class="title">Выберите размер</p>
+                                                <section class="modal_section">
+                                                    <div id="" class="modal_div1">
+                                                        <p class="modal_size_ru first">39</p>
+                                                        <p class="modal_size_eu first">5,5</p>
+                                                    </div>
+                                                    <div id="" class="modal_div">
+                                                        <p class="modal_size_ru second">40</p>
+                                                        <p class="modal_size_eu second">6,5</p>
+                                                    </div>
+                                                    <div id="" class="modal_div4 js_div_green" onclick="changeColor()">
+                                                        <p class="modal_size_ru third">41</p>
+                                                        <p class="modal_size_eu third">7</p>
+                                                    </div>
+                                                    <div id="" class="modal_div5">
+                                                        <p class="modal_size_ru fourth">42</p>
+                                                        <p class="modal_size_eu fourth">8</p>
+                                                    </div>
+                                                    <div id="" class="modal_div">
+                                                        <p class="modal_size_ru fifth">43</p>
+                                                        <p class="modal_size_eu fifth">8,5</p>
+                                                    </div>
+                                                    <div id="" class="modal_div65">
+                                                        <p class="modal_size_ru sixth">44</p>
+                                                        <p class="modal_size_eu sixth">9,5</p>
+                                                    </div>
+                                                </section>
+                                                <div id="" class="modal_div_text">
+                                                    <p class="text">Руководство по размерам</p>
                                                 </div>
-                                            </button>
+                                            </div>
 
-                                        </a>
+                                            <!-- Подложка под модальным окном -->
+                                            <div id="text" class="overlay" id="overlay-modal"></div>
+
+                                        </div>
+                                        <!-- .....................Блок "Модалки" ................................ -->
+
+                                        <!-- </a> -->
                                     </div>
 
 
@@ -444,26 +449,27 @@
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="/777/"><img src="./img/product/product4.png" alt=""></a>
+                                    <a href=""><img src="./img/product/product4.png" alt=""></a>
                                 </div>
 
                                 <div class="pr-text1">
                                     <p>Picolinos босоножки женские
-                                        <br> арт. 30100805</p>
+                                        <br> арт. 84396647
+                                    </p>
                                 </div>
 
                                 <div class="pr-price">
                                     <div class="price3">
                                         <p>6 990 ₽</p>
                                     </div>
-                        
-                                
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="/777/" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
@@ -489,26 +495,27 @@
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="/777/"><img src="./img/product/product5.png" alt=""></a>
+                                    <a href=""><img src="./img/product/product5.png" alt=""></a>
                                 </div>
 
                                 <div class="pr-text1">
-                                    <p>Pikolinos ботинки женские 
-                                        <br> арт. 26604434</p>
+                                    <p>Pikolinos ботинки женские
+                                        <br> арт. 69325411
+                                    </p>
                                 </div>
 
                                 <div class="pr-price">
                                     <div class="price3">
                                         <p>10 990 ₽</p>
                                     </div>
-                        
-                                    
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="/777/" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
@@ -534,12 +541,13 @@
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="/777/"><img src="./img/product/product6.jpg" alt=""></a>
+                                    <a href=""><img src="./img/product/product6.jpg" alt=""></a>
                                 </div>
 
                                 <div class="pr-text1">
-                                    <p>Pikolinos кроссовки 
-                                        <br> арт. 25848785</p>
+                                    <p>Pikolinos кроссовки
+                                        <br> арт. 64329007
+                                    </p>
                                 </div>
 
                                 <div class="pr-price">
@@ -550,12 +558,12 @@
                                     <div class="price2">
                                         <p>7 990 ₽</p>
                                     </div>
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="/777/" >
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
@@ -581,26 +589,27 @@
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="/777/"><img src="./img/product/product7.jpg" alt="" class="photo2"></a>
+                                    <a href=""><img src="./img/product/product7.jpg" alt="" class="photo2"></a>
                                 </div>
 
                                 <div class="pr-text1">
-                                    <p>Rieker туфли мужские  
-                                        <br> арт. 38075380</p>
+                                    <p>Rieker туфли мужские
+                                        <br> арт. 14305637
+                                    </p>
                                 </div>
 
                                 <div class="pr-price">
                                     <div class="price3">
                                         <p>7 690 ₽</p>
                                     </div>
-                        
-                                    
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="/777/" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
@@ -624,26 +633,27 @@
                         <div class="position-product">
                             <div>
                                 <div>
-                                    <a href="/777/"><img src="./img/product/product8.png" alt=""></a>
+                                    <a href=""><img src="./img/product/product8.png" alt=""></a>
                                 </div>
 
                                 <div class="pr-text1">
                                     <p>Remonte сумка-рюкзак жен...
-                                        <br> арт. 44609620</p>
+                                        <br> арт. 60385679
+                                    </p>
                                 </div>
 
                                 <div class="pr-price">
                                     <div class="price3">
                                         <p>6 590 ₽</p>
                                     </div>
-                        
-                                    
-                               </div>
-                    
-                                <div > 
-                                    
-                                     <div >
-                                        <a href="/777/" >
+
+
+                                </div>
+
+                                <div>
+
+                                    <div>
+                                        <a href="./404/404.html">
                                             <button class="pr-button">
                                                 <div class="pr-button-position">
                                                     <p class="pr-button-text">В корзину</p>
@@ -707,38 +717,41 @@
                     <p class="text_about_us">О нас</p>
                 </section>
 
-            <div class="about_position">
-                <!-- Первая карточка -->
-                <section class="section_about_white">
-                    <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
-                    <p class="text_about_white">Работаем с 1934 года</p>
-                    <p class="text_about_white1">Мы радуем своих покупателей комфортной и стильной классической обувьюс
-                        элементами
-                        ортопедии, любого размера на проблемные ноги и на большую полноту.</p>
-                </section>
-        
-        <!-- Вторая карточка -->
-                <section class="section_about_white">
-                    <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
-                    <p class="text_about_white">Качество товара</p>
-                    <p class="text_about_white1">У нас представлены товары лучших европейских производителей по ценам среднего
-                        ценового сегмента из Германии, Финляндии, Испании, Португалии, Сербии, России.</p>
-                </section>
-                
-        <!-- Третья карточка -->
-                <section class="section_about_green">
-                    <img src="img/aboutWhite.svg" alt="logo" class="logo_about_us">
-                    <p class="text_about_green">Примерка перед покупкой</p>
-                    <p class="text_about_green1">Интернет-магазин "Стильная походка" даёт возможность примерить обувь перед
-                        оплатой
-                        заказа. Оплачивайте только то, что вам подошло и понравилось!</p>
-                </section>
+                <div class="about_position">
+                    <!-- Первая карточка -->
+                    <section class="section_about_white">
+                        <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
+                        <p class="text_about_white">Работаем с 1992 года</p>
+                        <p class="text_about_white1">Мы радуем своих покупателей комфортной и стильной классической
+                            обувью с
+                            элементами
+                            ортопедии, любого размера на проблемные ноги и на большую полноту.</p>
+                    </section>
+
+                    <!-- Вторая карточка -->
+                    <section class="section_about_white">
+                        <img src="img/aboutGreen.svg" alt="logo" class="logo_about_us">
+                        <p class="text_about_white">Качество товара</p>
+                        <p class="text_about_white1">У нас представлены товары лучших европейских производителей по
+                            ценам среднего
+                            ценового сегмента из Германии, Финляндии, Испании, Португалии, Сербии, России.</p>
+                    </section>
+
+                    <!-- Третья карточка -->
+                    <section class="section_about_green">
+                        <img src="img/aboutWhite.svg" alt="logo" class="logo_about_us">
+                        <p class="text_about_green">Примерка перед покупкой</p>
+                        <p class="text_about_green1">Интернет-магазин "Стильная походка" даёт возможность примерить
+                            обувь перед
+                            оплатой
+                            заказа. Оплачивайте только то, что вам подошло и понравилось!</p>
+                    </section>
+                </div>
+
+
             </div>
-        
-        
         </div>
     </div>
-  </div>
 
     <!-- .....................Конец блока "О нас".......................... -->
 
@@ -757,24 +770,27 @@
                             width="670px" height="434px" frameborder="0"></iframe>
                     </div>
 
-                <div class="map-text">
-                    <p class="map-address">Адреса наших магазинов:</p>
-                    <div>
-                        <ul class="list-img">
-                            <li class="map-list"> <span> Москва, пр-т Вернадского, 14 А</span> <br> ТЦ «Обувь сити», павильон 75 (1 этаж) <br>Мы открыты ежедневно с 10:00 до 21:00 <br> 
-                            <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
-                            </li>
-                            <li class="map-list">  <span>Москва, ул. Мастеркова, 6</span> <br> ТЦ «На Автозаводской», павильон 93 (1 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br>  
-                                <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
-                            </li>
-                            <li class="map-list">  <span>Москва, пл. Джавахарлала Неру, 1 </span><br> ТЦ «Универ Сити», павильон 125 (2 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br> 
-                                <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
-                            </li>
-                        </ul>
+                    <div class="map-text">
+                        <p class="map-address">Адреса наших магазинов:</p>
+                        <div>
+                            <ul class="list-img">
+                                <li class="map-list"> <span> Москва, пр-т Вернадского, 14 А</span> <br> ТЦ «Обувь сити»,
+                                    павильон 75 (1 этаж) <br>Мы открыты ежедневно с 10:00 до 21:00 <br>
+                                    <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
+                                </li>
+                                <li class="map-list"> <span>Москва, ул. Мастеркова, 6</span> <br> ТЦ «На Автозаводской»,
+                                    павильон 93 (1 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br>
+                                    <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
+                                </li>
+                                <li class="map-list"> <span>Москва, пл. Джавахарлала Неру, 1 </span><br> ТЦ «Универ
+                                    Сити», павильон 125 (2 этаж) <br> Мы открыты ежедневно с 10:00 до 21:00 <br>
+                                    <a href="./404/index.html" class="maps-number">+7 (957) 654-32-10</a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
-                   
                 </div>
-            </div>
 
 
 
@@ -823,34 +839,35 @@
                             <input type="text" placeholder="E-mail" class="connection_textbox_2">
                         </form>
 
+                    </div>
                 </div>
-            </div>
-           
-                
-      
-            <!-- Чекбокс подпись-->
-           <div class="position_checkbox1">
-           
-                
-
-                <label>
-                    <input  type="checkbox" name="radiobutton" class="real-checkbox"/>
-                     <span class="size1"> </span>
-                </label>
 
 
-                 <p class="text_connection6">Соглашаюсь с условиями <a href="/777/" class="text_connection5">Политики обработки <br> персональных данных </a>
-                  </p>
-                <!-- Чекбокс-->
-   
-               
-           </div>
-            <button class="connection_button">Подписаться</button>
+
+                <!-- Чекбокс подпись-->
+                <div class="position_checkbox1">
+
+
+
+                    <label>
+                        <input type="checkbox" name="radiobutton" class="real-checkbox" />
+                        <span class="size1"> </span>
+                    </label>
+
+
+                    <p class="text_connection6">Соглашаюсь с условиями <a href="" class="text_connection5">Политики
+                            обработки <br> персональных данных </a>
+                    </p>
+                    <!-- Чекбокс-->
+
+
+                </div>
+                <button class="connection_button">Подписаться</button>
+
+            </section>
 
         </section>
-
     </section>
-</section>
 
 
     <footer class="footer">
@@ -868,7 +885,7 @@
                         <div>
 
                             <div class="number">
-                                <a href="/777/" class="listy">8 (800) 456-10-20</a>
+                                <a href="#" class="listy">8 (800) 456-10-20</a>
                             </div>
 
 
@@ -902,11 +919,11 @@
                         <h3 class="naming">Каталог товаров</h3>
 
                         <ul class="list1">
-                            <li><a href="/777/" class="list">Женская обувь</a></li>
-                            <li><a href="/777/" class="list">Мужская обувь</a></li>
-                            <li><a href="/777/" class="list">Сумки</a></li>
-                            <li><a href="/777/" class="list">Сопутствующие товары</a></li>
-                            <li><a href="/777/" class="list">Бренды</a></li>
+                            <li><a href="#" class="list">Женская обувь</a></li>
+                            <li><a href="#" class="list">Мужская обувь</a></li>
+                            <li><a href="#" class="list">Сумки</a></li>
+                            <li><a href="#" class="list">Сопутствующие товары</a></li>
+                            <li><a href="#" class="list">Бренды</a></li>
                         </ul>
                     </div>
 
@@ -914,12 +931,12 @@
                         <h3 class="naming">Для покупателей</h3>
 
                         <ul class="list1">
-                            <li ><a href="/777/" class="list">Доставка</a></li>
-                            <li><a href="/777/" class="list">Отзывы</a></li>
-                            <li><a href="/777/" class="list">Гарантия и возврат</a></li>
-                            <li><a href="/777/" class="list">Как сделать заказ</a></li>
+                            <li><a href="#" class="list">Доставка</a></li>
+                            <li><a href="#" class="list">Отзывы</a></li>
+                            <li><a href="#" class="list">Гарантия и возврат</a></li>
+                            <li><a href="#" class="list">Как сделать заказ</a></li>
                             <!-- <li> <a href="#" class="list">Публичная оферта</a></li> -->
-                            <li><a href="/777/" class="list">Правила ухода за обувью</a></li>
+                            <li><a href="#" class="list">Правила ухода за обувью</a></li>
                         </ul>
                     </div>
 
@@ -930,18 +947,18 @@
                         <h3 class="naming">О компании</h3>
 
                         <ul class="list1">
-                            <li><a href="/777/" class="list">О нас</a></li>
-                            <li><a href="/777/" class="list">Сертификаты соответствия</a></li>
-                            <li><a href="/777/" class="list">Магазины</a></li>
-                            <li><a href="/777/" class="list">О проекте</a></li>                        
+                            <li><a href="#" class="list">О нас</a></li>
+                            <li><a href="#" class="list">Сертификаты соответствия</a></li>
+                            <li><a href="#" class="list">Магазины</a></li>
+                            <li><a href="#" class="list">О проекте</a></li>
                         </ul>
                     </div>
 
                 </div>
 
                 <div class="politics">
-                    <a href="/777/" class="list9">&copy; 2023 Политика конфиденциальности</a>
-                    
+                    <a href="#" class="list9">&copy; 2023 Политика конфиденциальности</a>
+
                 </div>
 
             </div>
