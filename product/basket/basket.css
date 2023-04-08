@@ -536,6 +536,10 @@
     color: #476B59;
 }
 
+.basket_reminder_text:hover{
+color: #599D7B;
+}
+
 .basket_shipping_2_text_1 select{
     font-family: 'Montserrat';
     font-style: normal;
